@@ -200,6 +200,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "agentmail",
+    "path": "skills/agentmail",
+    "category": "uncategorized",
+    "name": "agentmail",
+    "description": "Email infrastructure for AI agents. Create accounts, send/receive emails, manage webhooks, and check karma balance via the AgentMail API.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
+  },
+  {
     "id": "agents-v2-py",
     "path": "skills/agents-v2-py",
     "category": "uncategorized",
@@ -8905,9 +8915,9 @@
     "category": "uncategorized",
     "name": "tutorial-engineer",
     "description": "Creates step-by-step tutorials and educational content from code. Transforms complex concepts into progressive learning experiences with hands-on examples.",
-    "risk": "unknown",
+    "risk": "safe",
     "source": "community",
-    "date_added": "2026-02-27"
+    "date_added": "2026-03-02"
   },
   {
     "id": "twilio-communications",
@@ -9188,6 +9198,16 @@
     "risk": "safe",
     "source": "original",
     "date_added": "2026-02-28"
+  },
+  {
+    "id": "videodb",
+    "path": "skills/videodb",
+    "category": "media",
+    "name": "videodb",
+    "description": "Video and audio perception, indexing, and editing. Ingest files/URLs/live streams, build visual/spoken indexes, search with timestamps, edit timelines, add overlays/subtitles, generate media, and create real-time alerts.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-02-27"
   },
   {
     "id": "videodb-skills",

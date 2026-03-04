@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 968,
+  "total": 970,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -459,6 +459,30 @@
         "directory"
       ],
       "path": "skills/agentfolio/SKILL.md"
+    },
+    {
+      "id": "agentmail",
+      "name": "agentmail",
+      "description": "Email infrastructure for AI agents. Create accounts, send/receive emails, manage webhooks, and check karma balance via the AgentMail API.",
+      "category": "data-ai",
+      "tags": [
+        "agentmail"
+      ],
+      "triggers": [
+        "agentmail",
+        "email",
+        "infrastructure",
+        "ai",
+        "agents",
+        "accounts",
+        "send",
+        "receive",
+        "emails",
+        "webhooks",
+        "check",
+        "karma"
+      ],
+      "path": "skills/agentmail/SKILL.md"
     },
     {
       "id": "agents-v2-py",
@@ -22634,6 +22658,39 @@
         "risks"
       ],
       "path": "skills/vibe-code-auditor/SKILL.md"
+    },
+    {
+      "id": "videodb",
+      "name": "videodb",
+      "description": "Video and audio perception, indexing, and editing. Ingest files/URLs/live streams, build visual/spoken indexes, search with timestamps, edit timelines, add overlays/subtitles, generate media, and create real-time alerts.",
+      "category": "general",
+      "tags": [
+        "[video",
+        "editing",
+        "transcription",
+        "subtitles",
+        "search",
+        "streaming",
+        "ai-generation",
+        "media",
+        "live-streams",
+        "desktop-capture]"
+      ],
+      "triggers": [
+        "[video",
+        "editing",
+        "transcription",
+        "subtitles",
+        "search",
+        "streaming",
+        "ai-generation",
+        "media",
+        "live-streams",
+        "desktop-capture]",
+        "videodb",
+        "video"
+      ],
+      "path": "skills/videodb/SKILL.md"
     },
     {
       "id": "videodb-skills",

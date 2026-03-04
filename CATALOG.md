@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 968
+Total skills: 970
 
 ## architecture (67)
 
@@ -132,7 +132,7 @@ calculations | startup, business, analyst, market, opportunity | startup, busine
 | `startup-financial-modeling` | This skill should be used when the user asks to \\\"create financial projections", "build a financial model", "forecast revenue", "calculate burn rate", "est... | startup, financial, modeling | startup, financial, modeling, skill, should, used, user, asks, projections, model, forecast, revenue |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 
-## data-ai (177)
+## data-ai (178)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -140,6 +140,7 @@ calculations | startup, business, analyst, market, opportunity | startup, busine
 | `agent-memory-mcp` | A hybrid memory system that provides persistent, searchable knowledge management for AI agents (Architecture, Patterns, Decisions). | agent, memory, mcp | agent, memory, mcp, hybrid, provides, persistent, searchable, knowledge, ai, agents, architecture, decisions |
 | `agent-tool-builder` | Tools are how AI agents interact with the world. A well-designed tool is the difference between an agent that works and one that hallucinates, fails silently... | agent, builder | agent, builder, how, ai, agents, interact, world, well, designed, difference, between, works |
 | `agentfolio` | Skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory. | agentfolio | agentfolio, skill, discovering, researching, autonomous, ai, agents, ecosystems, directory |
+| `agentmail` | Email infrastructure for AI agents. Create accounts, send/receive emails, manage webhooks, and check karma balance via the AgentMail API. | agentmail | agentmail, email, infrastructure, ai, agents, accounts, send, receive, emails, webhooks, check, karma |
 | `agents-v2-py` | Build container-based Foundry Agents with Azure AI Projects SDK (ImageBasedHostedAgentDefinition). Use when creating hosted agents with custom container imag... | agents, v2, py | agents, v2, py, container, foundry, azure, ai, sdk, imagebasedhostedagentdefinition, creating, hosted, custom |
 | `ai-agent-development` | AI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents. | ai, agent | ai, agent, development, building, autonomous, agents, multi, orchestration, crewai, langgraph, custom |
 | `ai-agents-architect` | Expert in designing and building autonomous AI agents. Masters tool use, memory systems, planning strategies, and multi-agent orchestration. Use when: build ... | ai, agents | ai, agents, architect, designing, building, autonomous, masters, memory, planning, multi, agent, orchestration |
@@ -466,7 +467,7 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `webapp-testing` | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing... | webapp | webapp, testing, toolkit, interacting, local, web, applications, playwright, supports, verifying, frontend, functionality |
 | `zustand-store-ts` | Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation. Use when building React state management, creati... | zustand, store, ts | zustand, store, ts, stores, typescript, subscribewithselector, middleware, proper, state, action, separation, building |
 
-## general (189)
+## general (190)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -649,6 +650,7 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `using-git-worktrees` | Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with sma... | using, git, worktrees | using, git, worktrees, starting, feature, work, isolation, current, workspace, before, executing, plans |
 | `using-superpowers` | Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions | using, superpowers | using, superpowers, starting, any, conversation, establishes, how, find, skills, requiring, skill, invocation |
 | `verification-before-completion` | Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output... | verification, before, completion | verification, before, completion, about, claim, work, complete, fixed, passing, committing, creating, prs |
+| `videodb` | Video and audio perception, indexing, and editing. Ingest files/URLs/live streams, build visual/spoken indexes, search with timestamps, edit timelines, add o... | [video, editing, transcription, subtitles, search, streaming, ai-generation, media, live-streams, desktop-capture] | [video, editing, transcription, subtitles, search, streaming, ai-generation, media, live-streams, desktop-capture], videodb, video |
 | `web-performance-optimization` | Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance | web, performance, optimization | web, performance, optimization, optimize, website, application, including, loading, speed, core, vitals, bundle |
 | `wiki-architect` | Analyzes code repositories and generates hierarchical documentation structures with onboarding guides. Use when the user wants to create a wiki, generate doc... | wiki | wiki, architect, analyzes, code, repositories, generates, hierarchical, documentation, structures, onboarding, guides, user |
 | `wiki-changelog` | Analyzes git commit history and generates structured changelogs categorized by change type. Use when the user asks about recent changes, wants a changelog, o... | wiki, changelog | wiki, changelog, analyzes, git, commit, history, generates, structured, changelogs, categorized, change, type |
