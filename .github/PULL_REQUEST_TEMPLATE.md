@@ -1,17 +1,22 @@
-## Description
+# Pull Request Description
 
-Please describe your changes. What skill are you adding or modifying?
+Please include a summary of the change and which skill is added or fixed.
 
-## Checklist
+## Quality Bar Checklist ✅
 
-- [ ] My skill follows the [creation guidelines](https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/skill-creator)
-- [ ] I have run `validate_skills.py`
-- [ ] I have added my name to the credits (if applicable)
+**All items must be checked before merging.**
+
+- [ ] **Standards**: I have read `docs/QUALITY_BAR.md` and `docs/SECURITY_GUARDRAILS.md`.
+- [ ] **Metadata**: The `SKILL.md` frontmatter is valid (checked with `scripts/validate_skills.py`).
+- [ ] **Risk Label**: I have assigned the correct `risk:` tag (`none`, `safe`, `critical`, `offensive`).
+- [ ] **Triggers**: The "When to use" section is clear and specific.
+- [ ] **Security**: If this is an _offensive_ skill, I included the "Authorized Use Only" disclaimer.
+- [ ] **Local Test**: I have verified the skill works locally.
+- [ ] **Credits**: I have added the source credit in `README.md` (if applicable).
 
 ## Type of Change
 
-- [ ] New Skill
-- [ ] Bug Fix
+- [ ] New Skill (Feature)
 - [ ] Documentation Update
 - [ ] Infrastructure
 

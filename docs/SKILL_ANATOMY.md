@@ -31,6 +31,7 @@ skills/
 Every `SKILL.md` file has two main parts:
 
 ### 1. Frontmatter (Metadata)
+
 ### 2. Content (Instructions)
 
 Let's break down each part:
@@ -51,15 +52,17 @@ description: "Brief description of what this skill does"
 ### Required Fields
 
 #### `name`
+
 - **What it is:** The skill's identifier
 - **Format:** lowercase-with-hyphens
 - **Must match:** The folder name exactly
 - **Example:** `stripe-integration`
 
 #### `description`
+
 - **What it is:** One-sentence summary
 - **Format:** String in quotes
-- **Length:** Keep it under 150 characters
+- **Length:** Keep it under 200 characters (validator enforces this)
 - **Example:** `"Stripe payment integration patterns including checkout, subscriptions, and webhooks"`
 
 ### Optional Fields
@@ -70,11 +73,21 @@ Some skills include additional metadata:
 ---
 name: my-skill-name
 description: "Brief description"
-version: "1.0.0"
-author: "Your Name"
-tags: ["react", "typescript", "testing"]
+risk: "safe" # none | safe | critical | offensive (see QUALITY_BAR.md)
+source: "community"
+tags: ["react", "typescript"]
+date_added: "2024-01-15"
 ---
 ```
+
+#### `date_added`
+
+- **What it is:** The date when the skill was created or added to the collection
+- **Format:** `YYYY-MM-DD` (ISO 8601 date format)
+- **Purpose:** Helps track skill versioning and community contributions
+- **Required:** No (optional, but recommended)
+- **Example:** `date_added: "2024-01-15"`
+- **Note:** Can be managed automatically with the `scripts/manage_skill_dates.py` script
 
 ---
 
@@ -85,13 +98,16 @@ After the frontmatter comes the actual skill content. Here's the recommended str
 ### Recommended Sections
 
 #### 1. Title (H1)
+
 ```markdown
 # Skill Title
 ```
+
 - Use a clear, descriptive title
 - Usually matches or expands on the skill name
 
 #### 2. Overview
+
 ```markdown
 ## Overview
 
@@ -100,6 +116,7 @@ A brief explanation of what this skill does and why it exists.
 ```
 
 #### 3. When to Use
+
 ```markdown
 ## When to Use This Skill
 
@@ -111,28 +128,34 @@ A brief explanation of what this skill does and why it exists.
 **Why this matters:** Helps the AI know when to activate this skill
 
 #### 4. Core Instructions
+
 ```markdown
 ## How It Works
 
 ### Step 1: [Action]
+
 Detailed instructions...
 
 ### Step 2: [Action]
+
 More instructions...
 ```
 
 **This is the heart of your skill** - clear, actionable steps
 
 #### 5. Examples
+
 ```markdown
 ## Examples
 
 ### Example 1: [Use Case]
+
 \`\`\`javascript
 // Example code
 \`\`\`
 
 ### Example 2: [Another Use Case]
+
 \`\`\`javascript
 // More code
 \`\`\`
@@ -141,6 +164,7 @@ More instructions...
 **Why examples matter:** They show the AI exactly what good output looks like
 
 #### 6. Best Practices
+
 ```markdown
 ## Best Practices
 
@@ -151,6 +175,7 @@ More instructions...
 ```
 
 #### 7. Common Pitfalls
+
 ```markdown
 ## Common Pitfalls
 
@@ -159,6 +184,7 @@ More instructions...
 ```
 
 #### 8. Related Skills
+
 ```markdown
 ## Related Skills
 
@@ -173,11 +199,13 @@ More instructions...
 ### Use Clear, Direct Language
 
 **❌ Bad:**
+
 ```markdown
 You might want to consider possibly checking if the user has authentication.
 ```
 
 **✅ Good:**
+
 ```markdown
 Check if the user is authenticated before proceeding.
 ```
@@ -185,11 +213,13 @@ Check if the user is authenticated before proceeding.
 ### Use Action Verbs
 
 **❌ Bad:**
+
 ```markdown
 The file should be created...
 ```
 
 **✅ Good:**
+
 ```markdown
 Create the file...
 ```
@@ -197,11 +227,13 @@ Create the file...
 ### Be Specific
 
 **❌ Bad:**
+
 ```markdown
 Set up the database properly.
 ```
 
 **✅ Good:**
+
 ```markdown
 1. Create a PostgreSQL database
 2. Run migrations: `npm run migrate`
@@ -224,6 +256,7 @@ scripts/
 ```
 
 **Reference them in SKILL.md:**
+
 ```markdown
 Run the setup script:
 \`\`\`bash
@@ -256,6 +289,7 @@ templates/
 ```
 
 **Reference in SKILL.md:**
+
 ```markdown
 Use this template as a starting point:
 \`\`\`typescript
@@ -279,16 +313,19 @@ references/
 ## Skill Size Guidelines
 
 ### Minimum Viable Skill
+
 - **Frontmatter:** name + description
 - **Content:** 100-200 words
 - **Sections:** Overview + Instructions
 
 ### Standard Skill
+
 - **Frontmatter:** name + description
 - **Content:** 300-800 words
 - **Sections:** Overview + When to Use + Instructions + Examples
 
 ### Comprehensive Skill
+
 - **Frontmatter:** name + description + optional fields
 - **Content:** 800-2000 words
 - **Sections:** All recommended sections
@@ -303,7 +340,9 @@ references/
 ### Use Markdown Effectively
 
 #### Code Blocks
+
 Always specify the language:
+
 ```markdown
 \`\`\`javascript
 const example = "code";
@@ -311,7 +350,9 @@ const example = "code";
 ```
 
 #### Lists
+
 Use consistent formatting:
+
 ```markdown
 - Item 1
 - Item 2
@@ -320,11 +361,13 @@ Use consistent formatting:
 ```
 
 #### Emphasis
+
 - **Bold** for important terms: `**important**`
-- *Italic* for emphasis: `*emphasis*`
+- _Italic_ for emphasis: `*emphasis*`
 - `Code` for commands/code: `` `code` ``
 
 #### Links
+
 ```markdown
 [Link text](https://example.com)
 ```
@@ -336,24 +379,28 @@ Use consistent formatting:
 Before finalizing your skill:
 
 ### Content Quality
+
 - [ ] Instructions are clear and actionable
 - [ ] Examples are realistic and helpful
 - [ ] No typos or grammar errors
 - [ ] Technical accuracy verified
 
 ### Structure
+
 - [ ] Frontmatter is valid YAML
 - [ ] Name matches folder name
 - [ ] Sections are logically organized
 - [ ] Headings follow hierarchy (H1 → H2 → H3)
 
 ### Completeness
+
 - [ ] Overview explains the "why"
 - [ ] Instructions explain the "how"
 - [ ] Examples show the "what"
 - [ ] Edge cases are addressed
 
 ### Usability
+
 - [ ] A beginner could follow this
 - [ ] An expert would find it useful
 - [ ] The AI can parse it correctly
@@ -373,6 +420,7 @@ description: "You MUST use this before any creative work..."
 ```
 
 **Analysis:**
+
 - ✅ Clear name
 - ✅ Strong description with urgency ("MUST use")
 - ✅ Explains when to use it
@@ -381,10 +429,12 @@ description: "You MUST use this before any creative work..."
 # Brainstorming Ideas Into Designs
 
 ## Overview
+
 Help turn ideas into fully formed designs...
 ```
 
 **Analysis:**
+
 - ✅ Clear title
 - ✅ Concise overview
 - ✅ Explains the value proposition
@@ -393,11 +443,13 @@ Help turn ideas into fully formed designs...
 ## The Process
 
 **Understanding the idea:**
+
 - Check out the current project state first
 - Ask questions one at a time
 ```
 
 **Analysis:**
+
 - ✅ Broken into clear phases
 - ✅ Specific, actionable steps
 - ✅ Easy to follow
@@ -412,10 +464,12 @@ Help turn ideas into fully formed designs...
 ## Instructions
 
 If the user is working with React:
+
 - Use functional components
 - Prefer hooks over class components
 
 If the user is working with Vue:
+
 - Use Composition API
 - Follow Vue 3 patterns
 ```
@@ -424,9 +478,11 @@ If the user is working with Vue:
 
 ```markdown
 ## Basic Usage
+
 [Simple instructions for common cases]
 
 ## Advanced Usage
+
 [Complex patterns for power users]
 ```
 
@@ -447,15 +503,18 @@ If the user is working with Vue:
 How to know if your skill is good:
 
 ### Clarity Test
+
 - Can someone unfamiliar with the topic follow it?
 - Are there any ambiguous instructions?
 
 ### Completeness Test
+
 - Does it cover the happy path?
 - Does it handle edge cases?
 - Are error scenarios addressed?
 
 ### Usefulness Test
+
 - Does it solve a real problem?
 - Would you use this yourself?
 - Does it save time or improve quality?
@@ -467,11 +526,13 @@ How to know if your skill is good:
 ### Study These Examples
 
 **For Beginners:**
+
 - `skills/brainstorming/SKILL.md` - Clear structure
 - `skills/git-pushing/SKILL.md` - Simple and focused
 - `skills/copywriting/SKILL.md` - Good examples
 
 **For Advanced:**
+
 - `skills/systematic-debugging/SKILL.md` - Comprehensive
 - `skills/react-best-practices/SKILL.md` - Multiple files
 - `skills/loki-mode/SKILL.md` - Complex workflows
@@ -491,22 +552,28 @@ How to know if your skill is good:
 ## Common Mistakes to Avoid
 
 ### ❌ Mistake 1: Too Vague
+
 ```markdown
 ## Instructions
+
 Make the code better.
 ```
 
 **✅ Fix:**
+
 ```markdown
 ## Instructions
+
 1. Extract repeated logic into functions
 2. Add error handling for edge cases
 3. Write unit tests for core functionality
 ```
 
 ### ❌ Mistake 2: Too Complex
+
 ```markdown
 ## Instructions
+
 [5000 words of dense technical jargon]
 ```
 
@@ -514,8 +581,10 @@ Make the code better.
 Break into multiple skills or use progressive disclosure
 
 ### ❌ Mistake 3: No Examples
+
 ```markdown
 ## Instructions
+
 [Instructions without any code examples]
 ```
 
@@ -523,6 +592,7 @@ Break into multiple skills or use progressive disclosure
 Add at least 2-3 realistic examples
 
 ### ❌ Mistake 4: Outdated Information
+
 ```markdown
 Use React class components...
 ```

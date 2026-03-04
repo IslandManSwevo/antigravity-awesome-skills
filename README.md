@@ -1,357 +1,197 @@
-# 🌌 Antigravity Awesome Skills: 233+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
+# 🌌 Antigravity Awesome Skills: 968+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
-> **The Ultimate Collection of 233+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
+> **The Ultimate Collection of 968+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
 [![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-Google-blue)](https://github.com/google-gemini/gemini-cli)
 [![Codex CLI](https://img.shields.io/badge/Codex%20CLI-OpenAI-green)](https://github.com/openai/codex)
+[![Kiro](https://img.shields.io/badge/Kiro-AWS-orange)](https://kiro.dev)
 [![Cursor](https://img.shields.io/badge/Cursor-AI%20IDE-orange)](https://cursor.sh)
 [![Copilot](https://img.shields.io/badge/GitHub%20Copilot-VSCode-lightblue)](https://github.com/features/copilot)
 [![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray)](https://github.com/opencode-ai/opencode)
-[![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/anthropics/antigravity)
+[![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/sickn33/antigravity-awesome-skills)
+[![AdaL CLI](https://img.shields.io/badge/AdaL%20CLI-SylphAI-pink)](https://sylph.ai/)
+[![ASK Supported](https://img.shields.io/badge/ASK-Supported-blue)](https://github.com/yeasy/ask)
+[![Buy Me a Book](https://img.shields.io/badge/Buy%20me%20a-book-d13610?logo=buymeacoffee&logoColor=white)](https://buymeacoffee.com/sickn33)
 
-**Antigravity Awesome Skills** is a curated, battle-tested library of **233 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
+If this project helps you, you can [support it here](https://buymeacoffee.com/sickn33) or simply ⭐ the repo.
+
+**Antigravity Awesome Skills** is a curated, battle-tested library of **968+ high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
 
 - 🟣 **Claude Code** (Anthropic CLI)
 - 🔵 **Gemini CLI** (Google DeepMind)
 - 🟢 **Codex CLI** (OpenAI)
+- 🟠 **Kiro CLI** (AWS)
+- 🟠 **Kiro IDE** (AWS)
 - 🔴 **Antigravity IDE** (Google DeepMind)
 - 🩵 **GitHub Copilot** (VSCode Extension)
 - 🟠 **Cursor** (AI-native IDE)
 - ⚪ **OpenCode** (Open-source CLI)
+- 🌸 **AdaL CLI** (Self-evolving Coding Agent)
 
-This repository provides essential skills to transform your AI assistant into a **full-stack digital agency**, including official capabilities from **Anthropic**, **OpenAI**, **Google**, and **Vercel Labs**.
+This repository provides essential skills to transform your AI assistant into a **full-stack digital agency**, including official capabilities from **Anthropic**, **OpenAI**, **Google**, **Microsoft**, **Supabase**, **Apify**, and **Vercel Labs**.
 
-## 📍 Table of Contents
+## Table of Contents
 
-- [🚀 New Here? Start Here!](#-new-here-start-here)
-- [🔌 Compatibility](#-compatibility)
-- [Features & Categories](#features--categories)
-- [Full Skill Registry](#full-skill-registry-155155)
-- [Installation](#installation)
-- [How to Contribute](#how-to-contribute)
-- [Credits & Sources](#credits--sources)
-- [License](#license)
+- [🚀 New Here? Start Here!](#new-here-start-here)
+- [📖 Complete Usage Guide](docs/USAGE.md) - **Start here if confused after installation!**
+- [🔌 Compatibility & Invocation](#compatibility--invocation)
+- [🛠️ Installation](#installation)
+- [🧯 Troubleshooting](#troubleshooting)
+- [🎁 Curated Collections (Bundles)](#curated-collections)
+- [🧭 Antigravity Workflows](#antigravity-workflows)
+- [📦 Features & Categories](#features--categories)
+- [📚 Browse 968+ Skills](#browse-968-skills)
+- [🤝 How to Contribute](#how-to-contribute)
+- [💬 Community](#community)
+- [☕ Support the Project](#support-the-project)
+- [🏆 Credits & Sources](#credits--sources)
+- [👥 Repo Contributors](#repo-contributors)
+- [⚖️ License](#license)
+- [🌟 Star History](#star-history)
 
 ---
 
 ## New Here? Start Here!
 
-**First time using this repository?** We've created beginner-friendly guides to help you get started:
+**Welcome to the V6.7.0 Interactive Web Edition.** This isn't just a list of scripts; it's a complete operating system for your AI Agent.
 
-- **[GETTING_STARTED.md](GETTING_STARTED.md)** - Complete beginner's guide (5-minute read)
-- **[CONTRIBUTING.md](CONTRIBUTING.md)** - How to contribute (step-by-step)
-- **[SKILL_ANATOMY.md](docs/SKILL_ANATOMY.md)** - Understanding how skills work
-- **[VISUAL_GUIDE.md](docs/VISUAL_GUIDE.md)** - Visual guide with diagrams
+### 1. 🐣 Context: What is this?
 
-**Quick Start:**
+**Antigravity Awesome Skills** (Release 6.5.0) is a massive upgrade to your AI's capabilities.
 
-```bash
-# 1. Install skills
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+AI Agents (like Claude Code, Cursor, or Gemini) are smart, but they lack **specific tools**. They don't know your company's "Deployment Protocol" or the specific syntax for "AWS CloudFormation".
+**Skills** are small markdown files that teach them how to do these specific tasks perfectly, every time.
 
-# 2. Use a skill in your AI assistant
-@brainstorming help me design a todo app
-```
+### 2. ⚡️ Quick Start (1 minute)
 
-That's it! Your AI assistant now has 233 specialized skills. 🎉
+Install once; then use Starter Packs in [docs/BUNDLES.md](docs/BUNDLES.md) to focus on your role.
 
-**Additional Resources:**
+1. **Install**:
 
-- 💡 **[Real-World Examples](docs/EXAMPLES.md)** - See skills in action
-- ❓ **[FAQ](FAQ.md)** - Common questions answered
+   ```bash
+   # Default: ~/.gemini/antigravity/skills (Antigravity global). Use --path for other locations.
+   npx antigravity-awesome-skills
+   ```
+
+2. **Verify**:
+
+   ```bash
+   test -d ~/.gemini/antigravity/skills && echo "Skills installed in ~/.gemini/antigravity/skills"
+   ```
+
+3. **Run your first skill**:
+
+   > "Use **@brainstorming** to plan a SaaS MVP."
+
+4. **Pick a bundle**:
+   - **Web Dev?** start with `Web Wizard`.
+   - **Security?** start with `Security Engineer`.
+   - **General use?** start with `Essentials`.
+
+### 3. 🧠 How to use
+
+Once installed, just ask your agent naturally:
+
+> "Use the **@brainstorming** skill to help me plan a SaaS."
+> "Run **@lint-and-validate** on this file."
+
+👉 **NEW:** [**Complete Usage Guide - Read This First!**](docs/USAGE.md) (answers: "What do I do after installation?", "How do I execute skills?", "What should prompts look like?")
+
+👉 **[Full Getting Started Guide](docs/GETTING_STARTED.md)**
 
 ---
 
-## 🔌 Compatibility
+## Compatibility & Invocation
 
-These skills follow the universal **SKILL.md** format and work with any AI coding assistant that supports agentic skills:
+These skills follow the universal **SKILL.md** format and work with any AI coding assistant that supports agentic skills.
 
-| Tool                | Type      | Compatibility | Installation Path                        |
-| ------------------- | --------- | ------------- | ---------------------------------------- |
-| **Claude Code**     | CLI       | ✅ Full       | `.claude/skills/` or `.agent/skills/`    |
-| **Gemini CLI**      | CLI       | ✅ Full       | `.gemini/skills/` or `.agent/skills/`    |
-| **Codex CLI**       | CLI       | ✅ Full       | `.codex/skills/` or `.agent/skills/`     |
-| **Antigravity IDE** | IDE       | ✅ Full       | `.agent/skills/`                         |
-| **Cursor**          | IDE       | ✅ Full       | `.cursor/skills/` or project root        |
-| **GitHub Copilot**  | Extension | ⚠️ Partial    | Copy skill content to `.github/copilot/` |
-| **OpenCode**        | CLI       | ✅ Full       | `.opencode/skills/` or `.agent/skills/`  |
+| Tool            | Type | Invocation Example                | Path                                                                  |
+| :-------------- | :--- | :-------------------------------- | :-------------------------------------------------------------------- |
+| **Claude Code** | CLI  | `>> /skill-name help me...`       | `.claude/skills/`                                                     |
+| **Gemini CLI**  | CLI  | `(User Prompt) Use skill-name...` | `.gemini/skills/`                                                     |
+| **Codex CLI**   | CLI  | `(User Prompt) Use skill-name...` | `.codex/skills/`                                                      |
+| **Kiro CLI**    | CLI  | `(Auto) Skills load on-demand`    | Global: `~/.kiro/skills/` · Workspace: `.kiro/skills/`                |
+| **Kiro IDE**    | IDE  | `/skill-name or (Auto)`           | Global: `~/.kiro/skills/` · Workspace: `.kiro/skills/`                |
+| **Antigravity** | IDE  | `(Agent Mode) Use skill...`       | Global: `~/.gemini/antigravity/skills/` · Workspace: `.agent/skills/` |
+| **Cursor**      | IDE  | `@skill-name (in Chat)`           | `.cursor/skills/`                                                     |
+| **Copilot**     | Ext  | `(Paste content manually)`        | N/A                                                                   |
+| **OpenCode**    | CLI  | `opencode run @skill-name`        | `.agents/skills/`                                                     |
+| **AdaL CLI**    | CLI  | `(Auto) Skills load on-demand`    | `.adal/skills/`                                                       |
 
 > [!TIP]
-> Most tools auto-discover skills in `.agent/skills/`. For maximum compatibility, clone to this directory.
+> **Default installer path**: `~/.gemini/antigravity/skills` (Antigravity global). Use `--path ~/.agent/skills` for workspace-specific install. For manual clone, `.agent/skills/` works as workspace path for Antigravity.
+> **OpenCode Path Update**: opencode path is changed to `.agents/skills` for global skills. See [Place Files](https://opencode.ai/docs/skills/#place-files) directive on OpenCode Docs.
 
----
-
-Whether you are using **Gemini CLI**, **Claude Code**, **Codex CLI**, **Cursor**, **GitHub Copilot**, **Antigravity**, or **OpenCode**, these skills are designed to drop right in and supercharge your AI agent.
-
-This repository aggregates the best capabilities from across the open-source community, transforming your AI assistant into a full-stack digital agency capable of Engineering, Design, Security, Marketing, and Autonomous Operations.
-
-## Features & Categories
-
-The repository is organized into several key areas of expertise:
-
-| Category                    | Skills Count | Key Skills Included                                                                                                          |
-| :-------------------------- | :----------- | :--------------------------------------------------------------------------------------------------------------------------- |
-| **🛸 Autonomous & Agentic** | **~8**       | Loki Mode (Startup-in-a-box), Subagent Driven Dev, Dispatching Parallel Agents, Planning With Files, Skill Creator/Developer |
-| **🔌 Integrations & APIs**  | **~25**      | Stripe, Firebase, Supabase, Vercel, Clerk Auth, Twilio, Discord Bot, Slack Bot, GraphQL, AWS Serverless                      |
-| **🛡️ Cybersecurity**        | **~51**      | Ethical Hacking, Metasploit, Burp Suite, SQLMap, Active Directory, AWS/Cloud Pentesting, OWASP Top 100, Red Team Tools       |
-| **🎨 Creative & Design**    | **~10**      | UI/UX Pro Max, Frontend Design, Canvas, Algorithmic Art, Theme Factory, D3 Viz, Web Artifacts                                |
-| **🛠️ Development**          | **~33**      | TDD, Systematic Debugging, React Patterns, Backend/Frontend Guidelines, Senior Fullstack, Software Architecture              |
-| **🏗️ Infrastructure & Git** | **~8**       | Linux Shell Scripting, Git Worktrees, Git Pushing, Conventional Commits, File Organization, GitHub Workflow Automation       |
-| **🤖 AI Agents & LLM**      | **~30**      | LangGraph, CrewAI, Langfuse, RAG Engineer, Prompt Engineer, Voice Agents, Browser Automation, Agent Memory Systems           |
-| **🔄 Workflow & Planning**  | **~6**       | Writing Plans, Executing Plans, Concise Planning, Verification Before Completion, Code Review (Requesting/Receiving)         |
-| **📄 Document Processing**  | **~4**       | DOCX (Official), PDF (Official), PPTX (Official), XLSX (Official)                                                            |
-| **🧪 Testing & QA**         | **~4**       | Webapp Testing, Playwright Automation, Test Fixing, Testing Patterns                                                         |
-| **📈 Product & Strategy**   | **~8**       | Product Manager Toolkit, Content Creator, ASO, Doc Co-authoring, Brainstorming, Internal Comms                               |
-| **📣 Marketing & Growth**   | **~23**      | Page CRO, Copywriting, SEO Audit, Paid Ads, Email Sequence, Pricing Strategy, Referral Program, Launch Strategy              |
-| **🚀 Maker Tools**          | **~11**      | Micro-SaaS Launcher, Browser Extension Builder, Telegram Bot, AI Wrapper Product, Viral Generator, 3D Web Experience         |
-
----
-
-## Full Skill Registry (233/233)
-
-Below is the complete list of available skills. Each skill folder contains a `SKILL.md` that can be imported into Antigravity or Claude Code.
-
-> [!NOTE] > **Document Skills**: We provide both **community** and **official Anthropic** versions for DOCX, PDF, PPTX, and XLSX. Locally, the official versions are used by default (via symlinks). In the repository, both versions are available for flexibility.
-
-| Skill Name                                          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                              | Path                                         |
-| :-------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------- |
-| **3D Web Experience**                               | Expert in building 3D experiences for the web - Three.js, React Three Fiber, Spline, WebGL.                                                                                                                                                                                                                                                                                                                                                              | `skills/3d-web-experience`                   |
-| **A/B Test Setup**                                  | Plan and implement A/B tests with proper experiment design, statistical significance, and test analysis.                                                                                                                                                                                                                                                                                                                                                 | `skills/ab-test-setup`                       |
-| **Active Directory Attacks**                        | This skill should be used when the user asks to "attack Active Directory", "exploit AD", "Kerberoasting", "DCSync", "pass-the-hash", "BloodHound enumeration", "Golden Ticket", "Silver Ticket", "AS-REP roasting", "NTLM relay", or needs guidance on Windows domain penetration testing.                                                                                                                                                               | `skills/active-directory-attacks`            |
-| **Address GitHub Comments**                         | Use when you need to address review or issue comments on an open GitHub Pull Request using the gh CLI.                                                                                                                                                                                                                                                                                                                                                   | `skills/address-github-comments`             |
-| **Agent Evaluation**                                | Testing and benchmarking LLM agents including behavioral testing, capability assessment, reliability metrics.                                                                                                                                                                                                                                                                                                                                            | `skills/agent-evaluation`                    |
-| **Agent Manager Skill**                             | Use when you need to manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling.                                                                                                                                                                                                                                                                                                                       | `skills/agent-manager-skill`                 |
-| **Agent Memory Systems**                            | Memory architecture for agents: short-term, long-term (vector stores), and cognitive architectures.                                                                                                                                                                                                                                                                                                                                                      | `skills/agent-memory-systems`                |
-| **Agent Tool Builder**                              | Tool design from schema to error handling. JSON Schema best practices, validation, and MCP.                                                                                                                                                                                                                                                                                                                                                              | `skills/agent-tool-builder`                  |
-| **AI Agents Architect**                             | Expert in autonomous AI agents. Tool use, memory systems, planning strategies, multi-agent orchestration.                                                                                                                                                                                                                                                                                                                                                | `skills/ai-agents-architect`                 |
-| **AI Product**                                      | LLM integration patterns, RAG architecture, prompt engineering, AI UX, and cost optimization.                                                                                                                                                                                                                                                                                                                                                            | `skills/ai-product`                          |
-| **AI Wrapper Product**                              | Building products that wrap AI APIs into focused tools. Prompt engineering, cost management.                                                                                                                                                                                                                                                                                                                                                             | `skills/ai-wrapper-product`                  |
-| **Algolia Search**                                  | Algolia search implementation, indexing strategies, React InstantSearch, relevance tuning.                                                                                                                                                                                                                                                                                                                                                               | `skills/algolia-search`                      |
-| **Algorithmic Art**                                 | Creating algorithmic art using p5.                                                                                                                                                                                                                                                                                                                                                                                                                       | `skills/algorithmic-art`                     |
-| **Analytics Tracking**                              | Set up analytics tracking with GA4, GTM, and custom event implementations for marketing measurement.                                                                                                                                                                                                                                                                                                                                                     | `skills/analytics-tracking`                  |
-| **API Fuzzing for Bug Bounty**                      | This skill should be used when the user asks to "test API security", "fuzz APIs", "find IDOR vulnerabilities", "test REST API", "test GraphQL", "API penetration testing", "bug bounty API testing", or needs guidance on API security assessment techniques.                                                                                                                                                                                            | `skills/api-fuzzing-bug-bounty`              |
-| **API Patterns**                                    | API design principles and decision-making. REST vs GraphQL vs tRPC selection, response formats, versioning.                                                                                                                                                                                                                                                                                                                                              | `skills/api-patterns`                        |
-| **App Builder**                                     | Main application building orchestrator. Creates full-stack applications from natural language requests.                                                                                                                                                                                                                                                                                                                                                  | `skills/app-builder`                         |
-| **App Store Optimization**                          | Complete App Store Optimization (ASO) toolkit for researching, optimizing, and tracking mobile app performance on Apple App Store and Google Play Store.                                                                                                                                                                                                                                                                                                 | `skills/app-store-optimization`              |
-| **Architecture**                                    | Architectural decision-making framework. Requirements analysis, trade-off evaluation, ADR documentation.                                                                                                                                                                                                                                                                                                                                                 | `skills/architecture`                        |
-| **Autonomous Agent Patterns**                       | "Design patterns for building autonomous coding agents.                                                                                                                                                                                                                                                                                                                                                                                                  | `skills/autonomous-agent-patterns`           |
-| **Autonomous Agents**                               | AI systems that independently decompose goals, plan actions, execute tools. ReAct, reflection.                                                                                                                                                                                                                                                                                                                                                           | `skills/autonomous-agents`                   |
-| **AWS Penetration Testing**                         | This skill should be used when the user asks to "pentest AWS", "test AWS security", "enumerate IAM", "exploit cloud infrastructure", "AWS privilege escalation", "S3 bucket testing", "metadata SSRF", "Lambda exploitation", or needs guidance on Amazon Web Services security assessment.                                                                                                                                                              | `skills/aws-penetration-testing`             |
-| **AWS Serverless**                                  | Serverless on AWS. Lambda, API Gateway, DynamoDB, SQS/SNS, SAM/CDK deployment.                                                                                                                                                                                                                                                                                                                                                                           | `skills/aws-serverless`                      |
-| **Azure Functions**                                 | Azure Functions patterns. Isolated worker model, Durable Functions, cold start optimization.                                                                                                                                                                                                                                                                                                                                                             | `skills/azure-functions`                     |
-| **Backend Guidelines**                              | Comprehensive backend development guide for Node.                                                                                                                                                                                                                                                                                                                                                                                                        | `skills/backend-dev-guidelines`              |
-| **Bash Linux**                                      | Bash/Linux terminal patterns. Critical commands, piping, error handling, scripting.                                                                                                                                                                                                                                                                                                                                                                      | `skills/bash-linux`                          |
-| **Behavioral Modes**                                | AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate).                                                                                                                                                                                                                                                                                                                                                                   | `skills/behavioral-modes`                    |
-| **BlockRun**                                        | Agent wallet for LLM micropayments. Use when user needs capabilities Claude lacks (image generation, real-time X/Twitter data) or explicitly requests external models ("blockrun", "use grok", "use gpt", "dall-e", "deepseek").                                                                                                                                                                                                                         | `skills/blockrun`                            |
-| **Brainstorming**                                   | "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior.                                                                                                                                                                                                                                                                                                                       | `skills/brainstorming`                       |
-| **Brand Guidelines (Anthropic)**                    | Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel.                                                                                                                                                                                                                                                                                                                 | `skills/brand-guidelines-anthropic`          |
-| **Brand Guidelines (Community)**                    | Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel.                                                                                                                                                                                                                                                                                                                 | `skills/brand-guidelines-community`          |
-| **Broken Authentication Testing**                   | This skill should be used when the user asks to "test for broken authentication vulnerabilities", "assess session management security", "perform credential stuffing tests", "evaluate password policies", "test for session fixation", or "identify authentication bypass flaws".                                                                                                                                                                       | `skills/broken-authentication`               |
-| **Browser Automation**                              | Browser automation with Playwright and Puppeteer. Testing, scraping, agentic control.                                                                                                                                                                                                                                                                                                                                                                    | `skills/browser-automation`                  |
-| **Browser Extension Builder**                       | Building browser extensions - Chrome, Firefox. Manifest v3, content scripts, monetization.                                                                                                                                                                                                                                                                                                                                                               | `skills/browser-extension-builder`           |
-| **BullMQ Specialist**                               | BullMQ for Redis-backed job queues, background processing in Node.js/TypeScript.                                                                                                                                                                                                                                                                                                                                                                         | `skills/bullmq-specialist`                   |
-| **Bun Development**                                 | "Modern JavaScript/TypeScript development with Bun runtime.                                                                                                                                                                                                                                                                                                                                                                                              | `skills/bun-development`                     |
-| **Burp Suite Web Application Testing**              | This skill should be used when the user asks to "intercept HTTP traffic", "modify web requests", "use Burp Suite for testing", "perform web vulnerability scanning", "test with Burp Repeater", "analyze HTTP history", or "configure proxy for web testing".                                                                                                                                                                                            | `skills/burp-suite-testing`                  |
-| **Canvas Design**                                   | Create beautiful visual art in .                                                                                                                                                                                                                                                                                                                                                                                                                         | `skills/canvas-design`                       |
-| **CC Skill: Backend Patterns**                      | Backend architecture patterns from everything-claude-code. API design, database, caching, error handling.                                                                                                                                                                                                                                                                                                                                                | `skills/cc-skill-backend-patterns`           |
-| **CC Skill: ClickHouse IO**                         | ClickHouse analytics patterns from everything-claude-code.                                                                                                                                                                                                                                                                                                                                                                                               | `skills/cc-skill-clickhouse-io`              |
-| **CC Skill: Coding Standards**                      | Language best practices from everything-claude-code.                                                                                                                                                                                                                                                                                                                                                                                                     | `skills/cc-skill-coding-standards`           |
-| **CC Skill: Continuous Learning**                   | Continuous learning patterns from everything-claude-code.                                                                                                                                                                                                                                                                                                                                                                                                | `skills/cc-skill-continuous-learning`        |
-| **CC Skill: Frontend Patterns**                     | React/Next.js patterns from everything-claude-code.                                                                                                                                                                                                                                                                                                                                                                                                      | `skills/cc-skill-frontend-patterns`          |
-| **CC Skill: Project Guidelines Example**            | Example project-specific skill from everything-claude-code.                                                                                                                                                                                                                                                                                                                                                                                              | `skills/cc-skill-project-guidelines-example` |
-| **CC Skill: Security Review**                       | Security checklist skill from everything-claude-code.                                                                                                                                                                                                                                                                                                                                                                                                    | `skills/cc-skill-security-review`            |
-| **CC Skill: Strategic Compact**                     | Strategic planning skill from everything-claude-code.                                                                                                                                                                                                                                                                                                                                                                                                    | `skills/cc-skill-strategic-compact`          |
-| **Claude Code Guide**                               | Master guide for using Claude Code effectively.                                                                                                                                                                                                                                                                                                                                                                                                          | `skills/claude-code-guide`                   |
-| **Claude D3.js**                                    | Creating interactive data visualisations using d3.                                                                                                                                                                                                                                                                                                                                                                                                       | `skills/claude-d3js-skill`                   |
-| **Clean Code**                                      | Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments.                                                                                                                                                                                                                                                                                                                                                              | `skills/clean-code`                          |
-| **Clerk Auth**                                      | Clerk auth implementation, middleware, organizations, webhooks, user sync.                                                                                                                                                                                                                                                                                                                                                                               | `skills/clerk-auth`                          |
-| **Cloud Penetration Testing**                       | This skill should be used when the user asks to "perform cloud penetration testing", "assess Azure or AWS or GCP security", "enumerate cloud resources", "exploit cloud misconfigurations", "test O365 security", "extract secrets from cloud environments", or "audit cloud infrastructure".                                                                                                                                                            | `skills/cloud-penetration-testing`           |
-| **Code Review Checklist**                           | Code review guidelines covering code quality, security, and best practices.                                                                                                                                                                                                                                                                                                                                                                              | `skills/code-review-checklist`               |
-| **Competitor Alternatives**                         | Create compelling competitor comparison and alternative pages for SEO and conversions.                                                                                                                                                                                                                                                                                                                                                                   | `skills/competitor-alternatives`             |
-| **Computer Use Agents**                             | AI agents that interact with computers like humans. Screen control, sandboxing.                                                                                                                                                                                                                                                                                                                                                                          | `skills/computer-use-agents`                 |
-| **Concise Planning**                                | Use when a user asks for a plan for a coding task, to generate a clear, actionable, and atomic checklist.                                                                                                                                                                                                                                                                                                                                                | `skills/concise-planning`                    |
-| **Content Creator**                                 | Create SEO-optimized marketing content with consistent brand voice.                                                                                                                                                                                                                                                                                                                                                                                      | `skills/content-creator`                     |
-| **Context Window Management**                       | Managing LLM context windows. Summarization, trimming, routing.                                                                                                                                                                                                                                                                                                                                                                                          | `skills/context-window-management`           |
-| **Conversation Memory**                             | Persistent memory for LLM conversations. Short-term, long-term, entity-based memory.                                                                                                                                                                                                                                                                                                                                                                     | `skills/conversation-memory`                 |
-| **Copy Editing**                                    | Edit and polish existing marketing copy with a systematic seven-sweeps framework.                                                                                                                                                                                                                                                                                                                                                                        | `skills/copy-editing`                        |
-| **Copywriting**                                     | Write compelling marketing copy for homepages, landing pages, pricing pages, and feature pages.                                                                                                                                                                                                                                                                                                                                                          | `skills/copywriting`                         |
-| **Core Components**                                 | Core component library and design system patterns.                                                                                                                                                                                                                                                                                                                                                                                                       | `skills/core-components`                     |
-| **CrewAI**                                          | Role-based multi-agent framework. Agent design, task definition, crew orchestration.                                                                                                                                                                                                                                                                                                                                                                     | `skills/crewai`                              |
-| **Cross-Site Scripting and HTML Injection Testing** | This skill should be used when the user asks to "test for XSS vulnerabilities", "perform cross-site scripting attacks", "identify HTML injection flaws", "exploit client-side injection vulnerabilities", "steal cookies via XSS", or "bypass content security policies".                                                                                                                                                                                | `skills/xss-html-injection`                  |
-| **Database Design**                                 | Database design principles. Schema design, indexing strategy, ORM selection, serverless databases.                                                                                                                                                                                                                                                                                                                                                       | `skills/database-design`                     |
-| **Deployment Procedures**                           | Production deployment principles. Safe deployment workflows, rollback strategies, and verification.                                                                                                                                                                                                                                                                                                                                                      | `skills/deployment-procedures`               |
-| **Discord Bot Architect**                           | Production Discord bots. Discord.js, Pycord, slash commands, sharding.                                                                                                                                                                                                                                                                                                                                                                                   | `skills/discord-bot-architect`               |
-| **Dispatching Parallel Agents**                     | Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies.                                                                                                                                                                                                                                                                                                                                              | `skills/dispatching-parallel-agents`         |
-| **Doc Co-authoring**                                | Guide users through a structured workflow for co-authoring documentation.                                                                                                                                                                                                                                                                                                                                                                                | `skills/doc-coauthoring`                     |
-| **Docker Expert**                                   | Docker containerization expert. Multi-stage builds, image optimization, container security, Docker Compose.                                                                                                                                                                                                                                                                                                                                              | `skills/docker-expert`                       |
-| **Documentation Templates**                         | Documentation templates and structure guidelines. README, API docs, code comments.                                                                                                                                                                                                                                                                                                                                                                       | `skills/documentation-templates`             |
-| **DOCX (Official)**                                 | "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction.                                                                                                                                                                                                                                                                                                        | `skills/docx-official`                       |
-| **Email Sequence**                                  | Create and optimize email sequences, drip campaigns, and lifecycle email programs.                                                                                                                                                                                                                                                                                                                                                                       | `skills/email-sequence`                      |
-| **Email Systems**                                   | Transactional email, marketing automation, deliverability, infrastructure.                                                                                                                                                                                                                                                                                                                                                                               | `skills/email-systems`                       |
-| **Ethical Hacking Methodology**                     | This skill should be used when the user asks to "learn ethical hacking", "understand penetration testing lifecycle", "perform reconnaissance", "conduct security scanning", "exploit vulnerabilities", or "write penetration test reports".                                                                                                                                                                                                              | `skills/ethical-hacking-methodology`         |
-| **Executing Plans**                                 | Use when you have a written implementation plan to execute in a separate session with review checkpoints.                                                                                                                                                                                                                                                                                                                                                | `skills/executing-plans`                     |
-| **File Organizer**                                  | Intelligently organizes files and folders by understanding context, finding duplicates, and suggesting better organizational structures.                                                                                                                                                                                                                                                                                                                 | `skills/file-organizer`                      |
-| **File Path Traversal Testing**                     | This skill should be used when the user asks to "test for directory traversal", "exploit path traversal vulnerabilities", "read arbitrary files through web applications", "find LFI vulnerabilities", or "access files outside web root".                                                                                                                                                                                                               | `skills/file-path-traversal`                 |
-| **File Uploads**                                    | File uploads and cloud storage. S3, Cloudflare R2, presigned URLs.                                                                                                                                                                                                                                                                                                                                                                                       | `skills/file-uploads`                        |
-| **Finishing Dev Branch**                            | Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup.                                                                                                                                                                                                                                                | `skills/finishing-a-development-branch`      |
-| **Firebase**                                        | Firebase Auth, Firestore, Realtime Database, Cloud Functions, Storage.                                                                                                                                                                                                                                                                                                                                                                                   | `skills/firebase`                            |
-| **Form CRO**                                        | Optimize lead capture forms, contact forms, demo request forms for higher conversion rates.                                                                                                                                                                                                                                                                                                                                                              | `skills/form-cro`                            |
-| **Free Tool Strategy**                              | Plan and build free tools for marketing, lead generation, and SEO value.                                                                                                                                                                                                                                                                                                                                                                                 | `skills/free-tool-strategy`                  |
-| **Frontend Design**                                 | Create distinctive, production-grade frontend interfaces with high design quality.                                                                                                                                                                                                                                                                                                                                                                       | `skills/frontend-design`                     |
-| **Frontend Guidelines**                             | Frontend development guidelines for React/TypeScript applications.                                                                                                                                                                                                                                                                                                                                                                                       | `skills/frontend-dev-guidelines`             |
-| **Game Development**                                | Game development orchestrator. Routes to platform-specific skills based on project needs.                                                                                                                                                                                                                                                                                                                                                                | `skills/game-development`                    |
-| **GCP Cloud Run**                                   | Serverless on GCP. Cloud Run services and functions, Pub/Sub.                                                                                                                                                                                                                                                                                                                                                                                            | `skills/gcp-cloud-run`                       |
-| **GEO Fundamentals**                                | Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity).                                                                                                                                                                                                                                                                                                                                                                      | `skills/geo-fundamentals`                    |
-| **Git Pushing**                                     | Stage, commit, and push git changes with conventional commit messages.                                                                                                                                                                                                                                                                                                                                                                                   | `skills/git-pushing`                         |
-| **GitHub Workflow Automation**                      | "Automate GitHub workflows with AI assistance.                                                                                                                                                                                                                                                                                                                                                                                                           | `skills/github-workflow-automation`          |
-| **GraphQL**                                         | Schema design, resolvers, DataLoader, federation, Apollo/urql integration.                                                                                                                                                                                                                                                                                                                                                                               | `skills/graphql`                             |
-| **HTML Injection Testing**                          | This skill should be used when the user asks to "test for HTML injection", "inject HTML into web pages", "perform HTML injection attacks", "deface web applications", or "test content injection vulnerabilities".                                                                                                                                                                                                                                       | `skills/html-injection-testing`              |
-| **HubSpot Integration**                             | HubSpot CRM integration. OAuth, CRM objects, webhooks, custom objects.                                                                                                                                                                                                                                                                                                                                                                                   | `skills/hubspot-integration`                 |
-| **i18n Localization**                               | Internationalization and localization patterns. Detecting hardcoded strings, managing translations.                                                                                                                                                                                                                                                                                                                                                      | `skills/i18n-localization`                   |
-| **IDOR Vulnerability Testing**                      | This skill should be used when the user asks to "test for insecure direct object references," "find IDOR vulnerabilities," "exploit broken access control," "enumerate user IDs or object references," or "bypass authorization to access other users' data.                                                                                                                                                                                             | `skills/idor-testing`                        |
-| **Inngest**                                         | Inngest for serverless background jobs, event-driven workflows.                                                                                                                                                                                                                                                                                                                                                                                          | `skills/inngest`                             |
-| **Interactive Portfolio**                           | Building portfolios that land jobs. Developer, designer portfolios.                                                                                                                                                                                                                                                                                                                                                                                      | `skills/interactive-portfolio`               |
-| **Internal Comms (Anthropic)**                      | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use.                                                                                                                                                                                                                                                                                                                                | `skills/internal-comms-anthropic`            |
-| **Internal Comms (Community)**                      | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use.                                                                                                                                                                                                                                                                                                                                | `skills/internal-comms-community`            |
-| **JavaScript Mastery**                              | "Comprehensive JavaScript reference covering 33+ essential concepts every developer should know.                                                                                                                                                                                                                                                                                                                                                         | `skills/javascript-mastery`                  |
-| **Kaizen**                                          | Guide for continuous improvement, error proofing, and standardization.                                                                                                                                                                                                                                                                                                                                                                                   | `skills/kaizen`                              |
-| **Langfuse**                                        | Open-source LLM observability. Tracing, prompt management, evaluation.                                                                                                                                                                                                                                                                                                                                                                                   | `skills/langfuse`                            |
-| **LangGraph**                                       | Stateful, multi-actor AI applications. Graph construction, persistence.                                                                                                                                                                                                                                                                                                                                                                                  | `skills/langgraph`                           |
-| **Launch Strategy**                                 | Plan product launches, feature announcements, and go-to-market strategies.                                                                                                                                                                                                                                                                                                                                                                               | `skills/launch-strategy`                     |
-| **Lint and Validate**                               | Automatic quality control, linting, and static analysis procedures.                                                                                                                                                                                                                                                                                                                                                                                      | `skills/lint-and-validate`                   |
-| **Linux Privilege Escalation**                      | This skill should be used when the user asks to "escalate privileges on Linux", "find privesc vectors on Linux systems", "exploit sudo misconfigurations", "abuse SUID binaries", "exploit cron jobs for root access", "enumerate Linux systems for privilege escalation", or "gain root access from low-privilege shell".                                                                                                                               | `skills/linux-privilege-escalation`          |
-| **Linux Shell Scripting**                           | This skill should be used when the user asks to "create bash scripts", "automate Linux tasks", "monitor system resources", "backup files", "manage users", or "write production shell scripts".                                                                                                                                                                                                                                                          | `skills/linux-shell-scripting`               |
-| **LLM App Patterns**                                | "Production-ready patterns for building LLM applications.                                                                                                                                                                                                                                                                                                                                                                                                | `skills/llm-app-patterns`                    |
-| **Loki Mode**                                       | Multi-agent autonomous startup system for Claude Code.                                                                                                                                                                                                                                                                                                                                                                                                   | `skills/loki-mode`                           |
-| **Marketing Ideas**                                 | 140 proven SaaS marketing ideas and strategies organized by category.                                                                                                                                                                                                                                                                                                                                                                                    | `skills/marketing-ideas`                     |
-| **Marketing Psychology**                            | 70+ mental models and psychological principles for marketing and persuasion.                                                                                                                                                                                                                                                                                                                                                                             | `skills/marketing-psychology`                |
-| **MCP Builder**                                     | Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools.                                                                                                                                                                                                                                                                                                    | `skills/mcp-builder`                         |
-| **Metasploit Framework**                            | This skill should be used when the user asks to "use Metasploit for penetration testing", "exploit vulnerabilities with msfconsole", "create payloads with msfvenom", "perform post-exploitation", "use auxiliary modules for scanning", or "develop custom exploits".                                                                                                                                                                                   | `skills/metasploit-framework`                |
-| **Micro-SaaS Launcher**                             | Launching small SaaS products fast. Idea validation, MVP, pricing.                                                                                                                                                                                                                                                                                                                                                                                       | `skills/micro-saas-launcher`                 |
-| **Mobile Design**                                   | Mobile-first design thinking for iOS and Android apps. Touch interaction, performance patterns.                                                                                                                                                                                                                                                                                                                                                          | `skills/mobile-design`                       |
-| **Moodle External API Development**                 | Create custom external web service APIs for Moodle LMS. Use when implementing web services for course management, user tracking, quiz operations, or custom plugin functionality. Covers parameter validation, database operations, error handling, service registration, and Moodle coding standards.                                                                                                                                                   | `skills/moodle-external-api-development`     |
-| **Neon Postgres**                                   | Neon serverless Postgres, branching, connection pooling, Prisma integration.                                                                                                                                                                                                                                                                                                                                                                             | `skills/neon-postgres`                       |
-| **NestJS Expert**                                   | Nest.js framework expert. Module architecture, dependency injection, middleware, guards, interceptors.                                                                                                                                                                                                                                                                                                                                                   | `skills/nestjs-expert`                       |
-| **Network 101**                                     | This skill should be used when the user asks to "set up a web server", "configure HTTP or HTTPS", "perform SNMP enumeration", "configure SMB shares", "test network services", or needs guidance on configuring and testing network services for penetration testing labs.                                                                                                                                                                               | `skills/network-101`                         |
-| **Next.js Best Practices**                          | Next.js App Router principles. Server Components, data fetching, routing patterns.                                                                                                                                                                                                                                                                                                                                                                       | `skills/nextjs-best-practices`               |
-| **Next.js Supabase Auth**                           | Supabase Auth with Next.js App Router. Auth middleware.                                                                                                                                                                                                                                                                                                                                                                                                  | `skills/nextjs-supabase-auth`                |
-| **Node.js Best Practices**                          | Node.js development principles. Framework selection, async patterns, security, architecture.                                                                                                                                                                                                                                                                                                                                                             | `skills/nodejs-best-practices`               |
-| **NotebookLM**                                      | Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers from Gemini.                                                                                                                                                                                                                                                                                                             | `skills/notebooklm`                          |
-| **Notion Template Business**                        | Building and selling Notion templates. Design, pricing, marketing.                                                                                                                                                                                                                                                                                                                                                                                       | `skills/notion-template-business`            |
-| **Onboarding CRO**                                  | Optimize post-signup onboarding, user activation, and time-to-value.                                                                                                                                                                                                                                                                                                                                                                                     | `skills/onboarding-cro`                      |
-| **Page CRO**                                        | Conversion rate optimization for marketing pages - homepages, landing pages, pricing pages.                                                                                                                                                                                                                                                                                                                                                              | `skills/page-cro`                            |
-| **Paid Ads**                                        | Create and optimize paid ad campaigns on Google Ads, Meta, LinkedIn, and other platforms.                                                                                                                                                                                                                                                                                                                                                                | `skills/paid-ads`                            |
-| **Parallel Agents**                                 | Multi-agent orchestration patterns. Use when multiple independent tasks can run with different domain expertise.                                                                                                                                                                                                                                                                                                                                         | `skills/parallel-agents`                     |
-| **Paywall Upgrade CRO**                             | Optimize in-app paywalls, upgrade screens, and freemium conversion moments.                                                                                                                                                                                                                                                                                                                                                                              | `skills/paywall-upgrade-cro`                 |
-| **PDF (Official)**                                  | Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms.                                                                                                                                                                                                                                                                                                               | `skills/pdf-official`                        |
-| **Pentest Checklist**                               | This skill should be used when the user asks to "plan a penetration test", "create a security assessment checklist", "prepare for penetration testing", "define pentest scope", "follow security testing best practices", or needs a structured methodology for penetration testing engagements.                                                                                                                                                         | `skills/pentest-checklist`                   |
-| **Pentest Commands**                                | This skill should be used when the user asks to "run pentest commands", "scan with nmap", "use metasploit exploits", "crack passwords with hydra or john", "scan web vulnerabilities with nikto", "enumerate networks", or needs essential penetration testing command references.                                                                                                                                                                       | `skills/pentest-commands`                    |
-| **Performance Profiling**                           | Performance profiling principles. Measurement, analysis, and optimization techniques.                                                                                                                                                                                                                                                                                                                                                                    | `skills/performance-profiling`               |
-| **Personal Tool Builder**                           | Building custom tools. Rapid prototyping, local-first apps, CLI tools.                                                                                                                                                                                                                                                                                                                                                                                   | `skills/personal-tool-builder`               |
-| **Plaid Fintech**                                   | Plaid API for banking. Link token flows, transactions, ACH.                                                                                                                                                                                                                                                                                                                                                                                              | `skills/plaid-fintech`                       |
-| **Plan Writing**                                    | Structured task planning with clear breakdowns, dependencies, and verification criteria.                                                                                                                                                                                                                                                                                                                                                                 | `skills/plan-writing`                        |
-| **Planning With Files**                             | Implements Manus-style file-based planning for complex tasks.                                                                                                                                                                                                                                                                                                                                                                                            | `skills/planning-with-files`                 |
-| **Playwright Automation**                           | Complete browser automation with Playwright.                                                                                                                                                                                                                                                                                                                                                                                                             | `skills/playwright-skill`                    |
-| **Popup CRO**                                       | Create and optimize popups, modals, and overlays for conversion.                                                                                                                                                                                                                                                                                                                                                                                         | `skills/popup-cro`                           |
-| **PowerShell Windows**                              | PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling.                                                                                                                                                                                                                                                                                                                                                                         | `skills/powershell-windows`                  |
-| **PPTX (Official)**                                 | "Presentation creation, editing, and analysis.                                                                                                                                                                                                                                                                                                                                                                                                           | `skills/pptx-official`                       |
-| **Pricing Strategy**                                | Design pricing, packaging, and monetization strategy for SaaS products.                                                                                                                                                                                                                                                                                                                                                                                  | `skills/pricing-strategy`                    |
-| **Prisma Expert**                                   | Prisma ORM expert for schema design, migrations, query optimization, relations modeling.                                                                                                                                                                                                                                                                                                                                                                 | `skills/prisma-expert`                       |
-| **Privilege Escalation Methods**                    | This skill should be used when the user asks to "escalate privileges", "get root access", "become administrator", "privesc techniques", "abuse sudo", "exploit SUID binaries", "Kerberoasting", "pass-the-ticket", "token impersonation", or needs guidance on post-exploitation privilege escalation for Linux or Windows systems.                                                                                                                      | `skills/privilege-escalation-methods`        |
-| **Product Toolkit**                                 | Comprehensive toolkit for product managers including RICE prioritization, customer interview analysis, PRD templates, discovery frameworks, and go-to-market strategies.                                                                                                                                                                                                                                                                                 | `skills/product-manager-toolkit`             |
-| **Programmatic SEO**                                | Build SEO-driven pages at scale using templates and data.                                                                                                                                                                                                                                                                                                                                                                                                | `skills/programmatic-seo`                    |
-| **Prompt Caching**                                  | Caching strategies for LLM prompts. Anthropic caching, CAG.                                                                                                                                                                                                                                                                                                                                                                                              | `skills/prompt-caching`                      |
-| **Prompt Engineer**                                 | Designing prompts for LLM applications. Structure, evaluation.                                                                                                                                                                                                                                                                                                                                                                                           | `skills/prompt-engineer`                     |
-| **Prompt Engineering**                              | Expert guide on prompt engineering patterns, best practices, and optimization techniques.                                                                                                                                                                                                                                                                                                                                                                | `skills/prompt-engineering`                  |
-| **Prompt Library**                                  | "Curated collection of high-quality prompts for various use cases.                                                                                                                                                                                                                                                                                                                                                                                       | `skills/prompt-library`                      |
-| **Python Patterns**                                 | Python development principles. Framework selection, async patterns, type hints, project structure.                                                                                                                                                                                                                                                                                                                                                       | `skills/python-patterns`                     |
-| **RAG Engineer**                                    | Building RAG systems. Embedding models, vector databases, chunking.                                                                                                                                                                                                                                                                                                                                                                                      | `skills/rag-engineer`                        |
-| **RAG Implementation**                              | RAG patterns. Chunking, embeddings, vector stores.                                                                                                                                                                                                                                                                                                                                                                                                       | `skills/rag-implementation`                  |
-| **React Best Practices**                            | React and Next.                                                                                                                                                                                                                                                                                                                                                                                                                                          | `skills/react-best-practices`                |
-| **React Patterns**                                  | Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices.                                                                                                                                                                                                                                                                                                                                                        | `skills/react-patterns`                      |
-| **React UI Patterns**                               | Modern React UI patterns for loading states, error handling, and data fetching.                                                                                                                                                                                                                                                                                                                                                                          | `skills/react-ui-patterns`                   |
-| **Research Engineer**                               | Academic Research Engineer persona with scientific rigor, zero hallucinations, and optimal language selection for high-precision engineering tasks.                                                                                                                                                                                                                                                                                                      | `skills/research-engineer`                   |
-| **Receiving Code Review**                           | Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation.                                                                                                                                                                                                              | `skills/receiving-code-review`               |
-| **Red Team Tactics**                                | Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting.                                                                                                                                                                                                                                                                                                                                                          | `skills/red-team-tactics`                    |
-| **Remotion Best Practices**                         | Best practices for Remotion - Video creation in React. Includes 28 modular rules for animations, audio, video, captions, 3D, charts, transitions, and more.                                                                                                                                                                                                                                                                                              | `skills/remotion-best-practices`             |
-| **Red Team Tools and Methodology**                  | This skill should be used when the user asks to "follow red team methodology", "perform bug bounty hunting", "automate reconnaissance", "hunt for XSS vulnerabilities", "enumerate subdomains", or needs security researcher techniques and tool configurations from top bug bounty hunters.                                                                                                                                                             | `skills/red-team-tools`                      |
-| **Referral Program**                                | Design referral programs, affiliate programs, and word-of-mouth strategies.                                                                                                                                                                                                                                                                                                                                                                              | `skills/referral-program`                    |
-| **Requesting Code Review**                          | Use when completing tasks, implementing major features, or before merging to verify work meets requirements.                                                                                                                                                                                                                                                                                                                                             | `skills/requesting-code-review`              |
-| **Salesforce Development**                          | Salesforce integration, Apex development, Lightning components.                                                                                                                                                                                                                                                                                                                                                                                          | `skills/salesforce-development`              |
-| **Schema Markup**                                   | Add structured data and JSON-LD schema markup for SEO and rich snippets.                                                                                                                                                                                                                                                                                                                                                                                 | `skills/schema-markup`                       |
-| **Scroll Experience**                               | GSAP/Framer scroll-driven storytelling. Parallax effects.                                                                                                                                                                                                                                                                                                                                                                                                | `skills/scroll-experience`                   |
-| **Security Scanning Tools**                         | This skill should be used when the user asks to "perform vulnerability scanning", "scan networks for open ports", "assess web application security", "scan wireless networks", "detect malware", "check cloud security", or "evaluate system compliance".                                                                                                                                                                                                | `skills/scanning-tools`                      |
-| **Segment CDP**                                     | Segment customer data platform. Event tracking, identity resolution.                                                                                                                                                                                                                                                                                                                                                                                     | `skills/segment-cdp`                         |
-| **Senior Architect**                                | Comprehensive software architecture skill for designing scalable, maintainable systems using ReactJS, NextJS, NodeJS, Express, React Native, Swift, Kotlin, Flutter, Postgres, GraphQL, Go, Python.                                                                                                                                                                                                                                                      | `skills/senior-architect`                    |
-| **Senior Fullstack**                                | Comprehensive fullstack development skill for building complete web applications with React, Next.                                                                                                                                                                                                                                                                                                                                                       | `skills/senior-fullstack`                    |
-| **SEO Audit**                                       | Audit technical and on-page SEO issues for better search rankings.                                                                                                                                                                                                                                                                                                                                                                                       | `skills/seo-audit`                           |
-| **SEO Fundamentals**                                | SEO fundamentals, E-E-A-T, Core Web Vitals, and Google algorithm principles.                                                                                                                                                                                                                                                                                                                                                                             | `skills/seo-fundamentals`                    |
-| **Server Management**                               | Server management principles. Process management, monitoring strategy, and scaling decisions.                                                                                                                                                                                                                                                                                                                                                            | `skills/server-management`                   |
-| **Shodan Reconnaissance and Pentesting**            | This skill should be used when the user asks to "search for exposed devices on the internet," "perform Shodan reconnaissance," "find vulnerable services using Shodan," "scan IP ranges with Shodan," or "discover IoT devices and open ports.                                                                                                                                                                                                           | `skills/shodan-reconnaissance`               |
-| **Shopify Apps**                                    | Building Shopify apps. App Bridge, Polaris, webhooks.                                                                                                                                                                                                                                                                                                                                                                                                    | `skills/shopify-apps`                        |
-| **Shopify Development**                             | Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid. Use when user asks about "shopify app", "checkout extension", "shopify theme", "liquid template", "polaris", "shopify graphql", "shopify webhook", or "metafields".                                                                                                                                                                                 | `skills/shopify-development`                 |
-| **Signup Flow CRO**                                 | Optimize signup, registration, and trial activation flows for higher conversions.                                                                                                                                                                                                                                                                                                                                                                        | `skills/signup-flow-cro`                     |
-| **Skill Creator**                                   | Guide for creating effective skills.                                                                                                                                                                                                                                                                                                                                                                                                                     | `skills/skill-creator`                       |
-| **Skill Developer**                                 | Create and manage Claude Code skills following Anthropic best practices.                                                                                                                                                                                                                                                                                                                                                                                 | `skills/skill-developer`                     |
-| **Slack Bot Builder**                               | Production Slack bots. Bolt framework, slash commands, modals.                                                                                                                                                                                                                                                                                                                                                                                           | `skills/slack-bot-builder`                   |
-| **Slack GIF Creator**                               | Knowledge and utilities for creating animated GIFs optimized for Slack.                                                                                                                                                                                                                                                                                                                                                                                  | `skills/slack-gif-creator`                   |
-| **SMTP Penetration Testing**                        | This skill should be used when the user asks to "perform SMTP penetration testing", "enumerate email users", "test for open mail relays", "grab SMTP banners", "brute force email credentials", or "assess mail server security".                                                                                                                                                                                                                        | `skills/smtp-penetration-testing`            |
-| **Social Content**                                  | Create and schedule social media content for LinkedIn, Twitter/X, and other platforms.                                                                                                                                                                                                                                                                                                                                                                   | `skills/social-content`                      |
-| **Software Architecture**                           | Guide for quality focused software architecture.                                                                                                                                                                                                                                                                                                                                                                                                         | `skills/software-architecture`               |
-| **SQL Injection Testing**                           | This skill should be used when the user asks to "test for SQL injection vulnerabilities", "perform SQLi attacks", "bypass authentication using SQL injection", "extract database information through injection", "detect SQL injection flaws", or "exploit database query vulnerabilities".                                                                                                                                                              | `skills/sql-injection-testing`               |
-| **SQLMap Database Penetration Testing**             | This skill should be used when the user asks to "automate SQL injection testing," "enumerate database structure," "extract database credentials using sqlmap," "dump tables and columns from a vulnerable database," or "perform automated database penetration testing.                                                                                                                                                                                 | `skills/sqlmap-database-pentesting`          |
-| **SSH Penetration Testing**                         | This skill should be used when the user asks to "pentest SSH services", "enumerate SSH configurations", "brute force SSH credentials", "exploit SSH vulnerabilities", "perform SSH tunneling", or "audit SSH security".                                                                                                                                                                                                                                  | `skills/ssh-penetration-testing`             |
-| **Stripe Integration**                              | Stripe patterns. Checkout, subscriptions, payment intents, webhooks.                                                                                                                                                                                                                                                                                                                                                                                     | `skills/stripe-integration`                  |
-| **Subagent Driven Dev**                             | Use when executing implementation plans with independent tasks in the current session.                                                                                                                                                                                                                                                                                                                                                                   | `skills/subagent-driven-development`         |
-| **Systematic Debugging**                            | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes.                                                                                                                                                                                                                                                                                                                                                             | `skills/systematic-debugging`                |
-| **Tailwind Patterns**                               | Tailwind CSS v4 principles. CSS-first configuration, container queries, design token architecture.                                                                                                                                                                                                                                                                                                                                                       | `skills/tailwind-patterns`                   |
-| **TDD**                                             | Use when implementing any feature or bugfix, before writing implementation code.                                                                                                                                                                                                                                                                                                                                                                         | `skills/test-driven-development`             |
-| **TDD Workflow**                                    | Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle.                                                                                                                                                                                                                                                                                                                                                                                   | `skills/tdd-workflow`                        |
-| **Telegram Bot Builder**                            | Building Telegram bots. Bot API, inline mode, payments, Mini Apps.                                                                                                                                                                                                                                                                                                                                                                                       | `skills/telegram-bot-builder`                |
-| **Telegram Mini App**                               | TON Connect, Telegram Mini Apps, wallet integration.                                                                                                                                                                                                                                                                                                                                                                                                     | `skills/telegram-mini-app`                   |
-| **Test Fixing**                                     | Run tests and systematically fix all failing tests using smart error grouping.                                                                                                                                                                                                                                                                                                                                                                           | `skills/test-fixing`                         |
-| **Testing Patterns**                                | Jest testing patterns, factory functions, mocking strategies, and TDD workflow.                                                                                                                                                                                                                                                                                                                                                                          | `skills/testing-patterns`                    |
-| **Theme Factory**                                   | Toolkit for styling artifacts with a theme.                                                                                                                                                                                                                                                                                                                                                                                                              | `skills/theme-factory`                       |
-| **Top 100 Vulnerabilities**                         | This skill should be used when the user asks to "identify web application vulnerabilities", "explain common security flaws", "understand vulnerability categories", "learn about injection attacks", "review access control weaknesses", "analyze API security issues", "assess security misconfigurations", "understand client-side vulnerabilities", "examine mobile and IoT security flaws", or "reference the OWASP-aligned vulnerability taxonomy". | `skills/top-web-vulnerabilities`             |
-| **Trigger.dev**                                     | Trigger.dev for serverless background jobs. Long-running tasks.                                                                                                                                                                                                                                                                                                                                                                                          | `skills/trigger-dev`                         |
-| **Twilio Communications**                           | Twilio for SMS, voice, video. Programmable messaging, OTP.                                                                                                                                                                                                                                                                                                                                                                                               | `skills/twilio-communications`               |
-| **TypeScript Expert**                               | TypeScript expert with deep knowledge of type-level programming, performance optimization, migration strategies.                                                                                                                                                                                                                                                                                                                                         | `skills/typescript-expert`                   |
-| **UI/UX Pro Max**                                   | "UI/UX design intelligence.                                                                                                                                                                                                                                                                                                                                                                                                                              | `skills/ui-ux-pro-max`                       |
-| **Upstash QStash**                                  | Upstash QStash for serverless message queues.                                                                                                                                                                                                                                                                                                                                                                                                            | `skills/upstash-qstash`                      |
-| **Using Git Worktrees**                             | Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification.                                                                                                                                                                                                                                             | `skills/using-git-worktrees`                 |
-| **Using Superpowers**                               | Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions.                                                                                                                                                                                                                                                                                         | `skills/using-superpowers`                   |
-| **Vercel Deployment**                               | Vercel deployment. Edge functions, preview deployments.                                                                                                                                                                                                                                                                                                                                                                                                  | `skills/vercel-deployment`                   |
-| **Verification Before Completion**                  | Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always.                                                                                                                                                                                                                       | `skills/verification-before-completion`      |
-| **Viral Generator Builder**                         | Building shareable generators that go viral.                                                                                                                                                                                                                                                                                                                                                                                                             | `skills/viral-generator-builder`             |
-| **Voice Agents**                                    | Voice-based AI assistants. Speech-to-text, real-time conversation.                                                                                                                                                                                                                                                                                                                                                                                       | `skills/voice-agents`                        |
-| **Voice AI Development**                            | Voice AI patterns. Wake words, streaming ASR, emotional TTS.                                                                                                                                                                                                                                                                                                                                                                                             | `skills/voice-ai-development`                |
-| **Vulnerability Scanner**                           | Advanced vulnerability analysis principles. OWASP 2025, Supply Chain Security, attack surface mapping.                                                                                                                                                                                                                                                                                                                                                   | `skills/vulnerability-scanner`               |
-| **Web Artifacts**                                   | Suite of tools for creating elaborate, multi-component claude.                                                                                                                                                                                                                                                                                                                                                                                           | `skills/web-artifacts-builder`               |
-| **Web Design Guidelines**                           | Review UI code for Web Interface Guidelines compliance.                                                                                                                                                                                                                                                                                                                                                                                                  | `skills/web-design-guidelines`               |
-| **Webapp Testing**                                  | Toolkit for interacting with and testing local web applications using Playwright.                                                                                                                                                                                                                                                                                                                                                                        | `skills/webapp-testing`                      |
-| **Windows Privilege Escalation**                    | This skill should be used when the user asks to "escalate privileges on Windows," "find Windows privesc vectors," "enumerate Windows for privilege escalation," "exploit Windows misconfigurations," or "perform post-exploitation privilege escalation.                                                                                                                                                                                                 | `skills/windows-privilege-escalation`        |
-| **Wireshark Network Traffic Analysis**              | This skill should be used when the user asks to "analyze network traffic with Wireshark", "capture packets for troubleshooting", "filter PCAP files", "follow TCP/UDP streams", "detect network anomalies", "investigate suspicious traffic", or "perform protocol analysis".                                                                                                                                                                            | `skills/wireshark-analysis`                  |
-| **WordPress Penetration Testing**                   | This skill should be used when the user asks to "pentest WordPress sites", "scan WordPress for vulnerabilities", "enumerate WordPress users, themes, or plugins", "exploit WordPress vulnerabilities", or "use WPScan".                                                                                                                                                                                                                                  | `skills/wordpress-penetration-testing`       |
-| **Workflow Automation**                             | "Design and implement automated workflows combining visual logic with custom code.                                                                                                                                                                                                                                                                                                                                                                       | `skills/workflow-automation`                 |
-| **Writing Plans**                                   | Use when you have a spec or requirements for a multi-step task, before touching code.                                                                                                                                                                                                                                                                                                                                                                    | `skills/writing-plans`                       |
-| **Writing Skills**                                  | Use when creating new skills, editing existing skills, or verifying skills work before deployment.                                                                                                                                                                                                                                                                                                                                                       | `skills/writing-skills`                      |
-| **XLSX (Official)**                                 | "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization.                                                                                                                                                                                                                                                                                                                      | `skills/xlsx-official`                       |
-| **Zapier/Make Patterns**                            | No-code automation. Zapier, Make, n8n workflows.                                                                                                                                                                                                                                                                                                                                                                                                         | `skills/zapier-make-patterns`                |
-
-> [!TIP]
-> Use the `validate_skills.py` script in the `scripts/` directory to ensure all skills are properly formatted and ready for use.
+> [!WARNING]
+> **Windows Users**: this repository uses **symlinks** for official skills.
+> See [Troubleshooting](#troubleshooting) for the exact fix.
 
 ---
 
 ## Installation
 
-To use these skills with **Claude Code**, **Gemini CLI**, **Codex CLI**, **Cursor**, **Antigravity**, or **OpenCode**, clone this repository into your agent's skills directory:
+To use these skills with **Claude Code**, **Gemini CLI**, **Codex CLI**, **Kiro CLI**, **Kiro IDE**, **Cursor**, **Antigravity**, **OpenCode**, or **AdaL**:
+
+### Option A: npx (recommended)
 
 ```bash
-# Universal installation (works with most tools)
+# Default: ~/.gemini/antigravity/skills (Antigravity global)
+npx antigravity-awesome-skills
+
+# Antigravity (explicit; same as default)
+npx antigravity-awesome-skills --antigravity
+
+# Kiro CLI/IDE (global)
+npx antigravity-awesome-skills --path ~/.kiro/skills
+
+# Kiro CLI/IDE (workspace)
+npx antigravity-awesome-skills --path .kiro/skills
+
+# Cursor
+npx antigravity-awesome-skills --cursor
+
+# Claude Code
+npx antigravity-awesome-skills --claude
+
+# Gemini CLI
+npx antigravity-awesome-skills --gemini
+
+# Codex CLI
+npx antigravity-awesome-skills --codex
+
+# Kiro CLI
+npx antigravity-awesome-skills --kiro
+
+# OpenCode
+npx antigravity-awesome-skills --path .agents/skills
+
+# AdaL CLI
+npx antigravity-awesome-skills --path .adal/skills
+
+# Workspace-specific (e.g. .agent/skills for Antigravity workspace)
+npx antigravity-awesome-skills --path ~/.agent/skills
+
+# Custom path
+npx antigravity-awesome-skills --path ./my-skills
+```
+
+Run `npx antigravity-awesome-skills --help` for all options. If the directory already exists, the installer runs `git pull` to update.
+
+### Option B: git clone
+
+Without `--path`, the npx installer uses `~/.gemini/antigravity/skills`. For manual clone or a different path (e.g. workspace `.agent/skills`), use one of the following:
+
+```bash
+# Antigravity global (matches npx default)
+git clone https://github.com/sickn33/antigravity-awesome-skills.git ~/.gemini/antigravity/skills
+
+# Workspace-specific (e.g. .agent/skills in your project)
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+
+# Kiro CLI/IDE global
+git clone https://github.com/sickn33/antigravity-awesome-skills.git ~/.kiro/skills
 
 # Claude Code specific
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .claude/skills
@@ -359,9 +199,206 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .claude/skil
 # Gemini CLI specific
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .gemini/skills
 
+# Codex CLI specific
+git clone https://github.com/sickn33/antigravity-awesome-skills.git .codex/skills
+
 # Cursor specific
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .cursor/skills
+
+# OpenCode
+git clone https://github.com/sickn33/antigravity-awesome-skills.git .agents/skills
+
+# AdaL CLI specific
+git clone https://github.com/sickn33/antigravity-awesome-skills.git .adal/skills
 ```
+
+### Option C: Kiro IDE Import (GUI)
+
+For Kiro IDE users, you can import individual skills directly:
+
+1. Open **Agent Steering & Skills** panel in Kiro IDE
+2. Click **+** → **Import a skill** → **GitHub**
+3. Paste skill URL: `https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/[skill-name]`
+4. Example: `https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/aws-cost-optimizer`
+
+> **Note**: This imports one skill at a time. For bulk installation, use Option A or B above.
+
+---
+
+## Troubleshooting
+
+### `npx antigravity-awesome-skills` returns 404
+
+Use the GitHub package fallback:
+
+```bash
+npx github:sickn33/antigravity-awesome-skills
+```
+
+### Windows clone issues (symlinks)
+
+This repository uses symlinks for official skills. Enable Developer Mode or run Git as Administrator, then clone with:
+
+```bash
+git clone -c core.symlinks=true https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+```
+
+### Skills installed but not detected by your tool
+
+Install to the tool-specific path. Use installer flags: `--antigravity` (default), `--claude`, `--gemini`, `--codex`, `--cursor`, or `--path <dir>` for a custom location (e.g. `~/.agent/skills` for Antigravity workspace).
+
+### Update an existing installation
+
+**Good news!** You no longer need to manually run `git pull` or `npx antigravity-awesome-skills` to update your skills.
+
+- **Windows:** Double-click **`START_APP.bat`** (or run it in your terminal).
+- **macOS/Linux:** Run `cd web-app && npm run app:dev` from the repo root.
+
+Both methods automatically fetch and merge the latest skills from the original repository every time you open the Web App, ensuring you always have the most up-to-date catalog.
+
+### Reinstall from scratch
+
+```bash
+rm -rf ~/.gemini/antigravity/skills
+npx antigravity-awesome-skills
+```
+
+---
+
+## Curated Collections
+
+**Bundles** are curated groups of skills for a specific role or goal (for example: `Web Wizard`, `Security Engineer`, `OSS Maintainer`).
+
+They help you avoid picking from 950+ skills one by one.
+
+### ⚠️ Important: Bundles Are NOT Separate Installations!
+
+**Common confusion:** "Do I need to install each bundle separately?"
+
+**Answer: NO!** Here's what bundles actually are:
+
+**What bundles ARE:**
+
+- ✅ Recommended skill lists organized by role
+- ✅ Curated starting points to help you decide what to use
+- ✅ Time-saving shortcuts for discovering relevant skills
+
+**What bundles are NOT:**
+
+- ❌ Separate installations or downloads
+- ❌ Different git commands
+- ❌ Something you need to "activate"
+
+### How to use bundles:
+
+1. **Install the repository once** (you already have all skills)
+2. **Browse bundles** in [docs/BUNDLES.md](docs/BUNDLES.md) to find your role
+3. **Pick 3-5 skills** from that bundle to start using in your prompts
+4. **Reference them in your conversations** with your AI (e.g., "Use @brainstorming...")
+
+For detailed examples of how to actually use skills, see the [**Usage Guide**](docs/USAGE.md).
+
+### Examples:
+
+- Building a SaaS MVP: `Essentials` + `Full-Stack Developer` + `QA & Testing`.
+- Hardening production: `Security Developer` + `DevOps & Cloud` + `Observability & Monitoring`.
+- Shipping OSS changes: `Essentials` + `OSS Maintainer`.
+
+## Antigravity Workflows
+
+Bundles help you choose skills. Workflows help you execute them in order.
+
+- Use bundles when you need curated recommendations by role.
+- Use workflows when you need step-by-step execution for a concrete goal.
+
+Start here:
+
+- [docs/WORKFLOWS.md](docs/WORKFLOWS.md): human-readable playbooks.
+- [data/workflows.json](data/workflows.json): machine-readable workflow metadata.
+
+Initial workflows include:
+
+- Ship a SaaS MVP
+- Security Audit for a Web App
+- Build an AI Agent System
+- QA and Browser Automation (with optional `@go-playwright` support for Go stacks)
+
+## Features & Categories
+
+The repository is organized into specialized domains to transform your AI into an expert across the entire software development lifecycle:
+
+| Category       | Focus                                              | Example skills                                                                  |
+| :------------- | :------------------------------------------------- | :------------------------------------------------------------------------------ |
+| Architecture   | System design, ADRs, C4, and scalable patterns     | `architecture`, `c4-context`, `senior-architect`                                |
+| Business       | Growth, pricing, CRO, SEO, and go-to-market        | `copywriting`, `pricing-strategy`, `seo-audit`                                  |
+| Data & AI      | LLM apps, RAG, agents, observability, analytics    | `rag-engineer`, `prompt-engineer`, `langgraph`                                  |
+| Development    | Language mastery, framework patterns, code quality | `typescript-expert`, `python-patterns`, `react-patterns`                        |
+| General        | Planning, docs, product ops, writing, guidelines   | `brainstorming`, `doc-coauthoring`, `writing-plans`                             |
+| Infrastructure | DevOps, cloud, serverless, deployment, CI/CD       | `docker-expert`, `aws-serverless`, `vercel-deployment`                          |
+| Security       | AppSec, pentesting, vuln analysis, compliance      | `api-security-best-practices`, `sql-injection-testing`, `vulnerability-scanner` |
+| Testing        | TDD, test design, fixes, QA workflows              | `test-driven-development`, `testing-patterns`, `test-fixing`                    |
+| Workflow       | Automation, orchestration, jobs, agents            | `workflow-automation`, `inngest`, `trigger-dev`                                 |
+
+Counts change as new skills are added. For the current full registry, see [CATALOG.md](CATALOG.md).
+
+## Browse 968+ Skills
+
+We have moved the full skill registry to a dedicated catalog to keep this README clean, and we've also introduced an interactive **Web App**!
+
+### 🌐 Interactive Skills Web App
+
+A modern web interface to explore, search, and use the 950+ skills directly from your browser.
+
+#### ✨ Features
+
+- 🔍 **Full-text search** – Search skills by name, description, or content
+- 🏷️ **Category filters** – Frontend, Backend, Security, DevOps, etc.
+- 📝 **Markdown rendering** – View complete documentation with syntax highlighting
+- 📋 **Copy buttons** – Copy `@skill-name` or full content in 1 click
+- 🛠️ **Prompt Builder** – Add custom context before copying
+- 🌙 **Dark mode** – Adaptive light/dark interface
+- ⚡ **Auto-update** – Automatically syncs with upstream repo
+
+#### 🚀 Quick Start
+
+**Windows:**
+
+```bash
+# Double-click or terminal
+START_APP.bat
+```
+
+**macOS/Linux:**
+
+```bash
+# 1. Install dependencies (first time)
+cd web-app && npm install
+
+# 2. Setup assets and launch
+npm run app:dev
+```
+
+**Available npm commands:**
+
+```bash
+npm run app:setup      # Copy skills to web-app/public/
+npm run app:dev        # Start dev server
+npm run app:build      # Production build
+npm run app:preview    # Preview production build
+```
+
+The app automatically opens at `http://localhost:5173` (or alternative port).
+
+#### 🛠️ Interactive Prompt Builder
+
+On each skill page you'll find the **Interactive Prompt Builder**. Instead of manually copying `@skill-name` and writing your requirements separately in your IDE:
+
+1. Type your specific project constraints into the text box (e.g., "Use React 19, TypeScript and Tailwind").
+2. Click **Copy Prompt** — copies a fully formatted, ready-to-run prompt combining `@skill-name` + your custom context.
+3. Or click **Copy Full Content** — copies the full skill documentation.
+4. Paste into your AI assistant (Claude, Cursor, Gemini, etc.).
+
+👉 **[View the Complete Skill Catalog (CATALOG.md)](CATALOG.md)**
 
 ---
 
@@ -371,15 +408,57 @@ We welcome contributions from the community! To add a new skill:
 
 1. **Fork** the repository.
 2. **Create a new directory** inside `skills/` for your skill.
-3. **Add a `SKILL.md`** with the required frontmatter (name and description).
-4. **Run validation**: `python3 scripts/validate_skills.py`.
-5. **Submit a Pull Request**.
+3. **Add a `SKILL.md`** with the required frontmatter (name, description, risk, source). See [docs/SKILL_ANATOMY.md](docs/SKILL_ANATOMY.md) and [docs/QUALITY_BAR.md](docs/QUALITY_BAR.md).
+4. **Add date tracking** (optional): Include `date_added: "YYYY-MM-DD"` in frontmatter. See [docs/SKILLS_DATE_TRACKING.md](docs/SKILLS_DATE_TRACKING.md) for details.
+5. **Run validation**: `npm run validate` (or `npm run validate:strict` for CI). Optionally run `python3 scripts/validate_references.py` if you touch workflows or bundles.
+6. **Submit a Pull Request**.
 
-Please ensure your skill follows the Antigravity/Claude Code best practices.
+Please ensure your skill follows the Antigravity/Claude Code best practices. Maintainers: see [docs/AUDIT.md](docs/AUDIT.md) for coherence checks and [.github/MAINTENANCE.md](.github/MAINTENANCE.md) for the full validation chain.
+
+---
+
+## Community
+
+- [Community Guidelines](docs/COMMUNITY_GUIDELINES.md)
+- [Security Policy](docs/SECURITY_GUARDRAILS.md)
+
+---
+
+## Support the Project
+
+Support is optional. This project stays free and open-source for everyone.
+
+If this repository saves you time or helps you ship faster, you can support ongoing maintenance:
+
+- [☕ Buy me a book on Buy Me a Coffee](https://buymeacoffee.com/sickn33)
+
+Where support goes:
+
+- Skill curation, testing, and quality validation.
+- Documentation updates, examples, and onboarding improvements.
+- Faster triage and review of community issues and PRs.
+
+Prefer non-financial support:
+
+- Star the repository.
+- Open clear, reproducible issues.
+- Submit PRs (skills, docs, fixes).
+- Share the project with other builders.
 
 ---
 
 ## Credits & Sources
+
+We stand on the shoulders of giants.
+
+👉 **[View the Full Attribution Ledger](docs/SOURCES.md)**
+
+Key contributors and sources include:
+
+- **HackTricks**
+- **OWASP**
+- **Anthropic / OpenAI / Google**
+- **The Open Source Community**
 
 This collection would not be possible without the incredible work of the Claude Code community and official sources:
 
@@ -390,9 +469,15 @@ This collection would not be possible without the incredible work of the Claude 
 - **[remotion-dev/skills](https://github.com/remotion-dev/skills)**: Official Remotion skills - Video creation in React with 28 modular rules.
 - **[vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)**: Vercel Labs official skills - React Best Practices, Web Design Guidelines.
 - **[openai/skills](https://github.com/openai/skills)**: OpenAI Codex skills catalog - Agent skills, Skill Creator, Concise Planning.
+- **[supabase/agent-skills](https://github.com/supabase/agent-skills)**: Supabase official skills - Postgres Best Practices.
+- **[microsoft/skills](https://github.com/microsoft/skills)**: Official Microsoft skills - Azure cloud services, Bot Framework, Cognitive Services, and enterprise development patterns across .NET, Python, TypeScript, Go, Rust, and Java.
+- **[google-gemini/gemini-skills](https://github.com/google-gemini/gemini-skills)**: Official Gemini skills - Gemini API, SDK and model interactions.
+- **[apify/agent-skills](https://github.com/apify/agent-skills)**: Official Apify skills - Web scraping, data extraction and automation.
 
 ### Community Contributors
 
+- **[rmyndharis/antigravity-skills](https://github.com/rmyndharis/antigravity-skills)**: For the massive contribution of 300+ Enterprise skills and the catalog generation logic.
+- **[amartelr/antigravity-workspace-manager](https://github.com/amartelr/antigravity-workspace-manager)**: Official Workspace Manager CLI companion to dynamically auto-provision subsets of skills across unlimited local development environments.
 - **[obra/superpowers](https://github.com/obra/superpowers)**: The original "Superpowers" by Jesse Vincent.
 - **[guanyang/antigravity-skills](https://github.com/guanyang/antigravity-skills)**: Core Antigravity extensions.
 - **[diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase)**: Infrastructure and Backend/Frontend Guidelines.
@@ -401,16 +486,109 @@ This collection would not be possible without the incredible work of the Claude 
 - **[zebbern/claude-code-guide](https://github.com/zebbern/claude-code-guide)**: Comprehensive Security suite & Guide (Source for ~60 new skills).
 - **[alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)**: Senior Engineering and PM toolkit.
 - **[karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills)**: A massive list of verified skills for Claude Code.
+- **[VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)**: Curated collection of 61 high-quality skills including official team skills from Sentry, Trail of Bits, Expo, Hugging Face, and comprehensive context engineering suite (v4.3.0 integration).
 - **[zircote/.claude](https://github.com/zircote/.claude)**: Shopify development skill reference.
 - **[vibeforge1111/vibeship-spawner-skills](https://github.com/vibeforge1111/vibeship-spawner-skills)**: AI Agents, Integrations, Maker Tools (57 skills, Apache 2.0).
 - **[coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)**: Marketing skills for CRO, copywriting, SEO, paid ads, and growth (23 skills, MIT).
+- **[Silverov/yandex-direct-skill](https://github.com/Silverov/yandex-direct-skill)**: Yandex Direct (API v5) advertising audit skill — 55 automated checks, A-F scoring, campaign/ad/keyword analysis for the Russian PPC market (MIT).
 - **[vudovn/antigravity-kit](https://github.com/vudovn/antigravity-kit)**: AI Agent templates with Skills, Agents, and Workflows (33 skills, MIT).
 - **[affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)**: Complete Claude Code configuration collection from Anthropic hackathon winner - skills only (8 skills, MIT).
+- **[whatiskadudoing/fp-ts-skills](https://github.com/whatiskadudoing/fp-ts-skills)**: Practical fp-ts skills for TypeScript – fp-ts-pragmatic, fp-ts-react, fp-ts-errors (v4.4.0).
+- **[webzler/agentMemory](https://github.com/webzler/agentMemory)**: Source for the agent-memory-mcp skill.
+- **[sstklen/claude-api-cost-optimization](https://github.com/sstklen/claude-api-cost-optimization)**: Save 50-90% on Claude API costs with smart optimization strategies (MIT).
+- **[Wittlesus/cursorrules-pro](https://github.com/Wittlesus/cursorrules-pro)**: Professional .cursorrules configurations for 8 frameworks - Next.js, React, Python, Go, Rust, and more. Works with Cursor, Claude Code, and Windsurf.
+- **[nedcodes-ok/rule-porter](https://github.com/nedcodes-ok/rule-porter)**: Bidirectional rule converter between Cursor (.mdc), Claude Code (CLAUDE.md), GitHub Copilot, Windsurf, and legacy .cursorrules formats. Zero dependencies.
+- **[SSOJet/skills](https://github.com/ssojet/skills)**: Production-ready SSOJet skills and integration guides for popular frameworks and platforms — Node.js, Next.js, React, Java, .NET Core, Go, iOS, Android, and more. Works seamlessly with SSOJet SAML, OIDC, and enterprise SSO flows. Works with Cursor, Antigravity, Claude Code, and Windsurf.
+- **[MojoAuth/skills](https://github.com/MojoAuth/skills)**: Production-ready MojoAuth guides and examples for popular frameworks like Node.js, Next.js, React, Java, .NET Core, Go, iOS, and Android.
+- **[Xquik-dev/x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper)**: X (Twitter) data platform — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction tools, MCP server.
+- **[shmlkv/dna-claude-analysis](https://github.com/shmlkv/dna-claude-analysis)**: Personal genome analysis toolkit — Python scripts analyzing raw DNA data across 17 categories (health risks, ancestry, pharmacogenomics, nutrition, psychology, etc.) with terminal-style single-page HTML visualization.
 
 ### Inspirations
 
 - **[f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)**: Inspiration for the Prompt Library.
 - **[leonardomso/33-js-concepts](https://github.com/leonardomso/33-js-concepts)**: Inspiration for JavaScript Mastery.
+
+---
+
+## Repo Contributors
+
+<a href="https://github.com/sickn33/antigravity-awesome-skills/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=sickn33/antigravity-awesome-skills" alt="Repository contributors" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
+
+We officially thank the following contributors for their help in making this repository awesome!
+
+- [@sickn33](https://github.com/sickn33)
+- [@munir-abbasi](https://github.com/munir-abbasi)
+- [@ssumanbiswas](https://github.com/ssumanbiswas)
+- [@zinzied](https://github.com/zinzied)
+- [@Mohammad-Faiz-Cloud-Engineer](https://github.com/Mohammad-Faiz-Cloud-Engineer)
+- [@Dokhacgiakhoa](https://github.com/Dokhacgiakhoa)
+- [@IanJ332](https://github.com/IanJ332)
+- [@chauey](https://github.com/chauey)
+- [@ar27111994](https://github.com/ar27111994)
+- [@8hrsk](https://github.com/8hrsk)
+- [@itsmeares](https://github.com/itsmeares)
+- [@GuppyTheCat](https://github.com/GuppyTheCat)
+- [@fernandorych](https://github.com/fernandorych)
+- [@nikolasdehor](https://github.com/nikolasdehor)
+- [@talesperito](https://github.com/talesperito)
+- [@jackjin1997](https://github.com/jackjin1997)
+- [@HuynhNhatKhanh](https://github.com/HuynhNhatKhanh)
+- [@liyin2015](https://github.com/liyin2015)
+- [@arathiesh](https://github.com/arathiesh)
+- [@Tiger-Foxx](https://github.com/Tiger-Foxx)
+- [@Musayrlsms](https://github.com/Musayrlsms)
+- [@sohamganatra](https://github.com/sohamganatra)
+- [@SuperJMN](https://github.com/SuperJMN)
+- [@SebConejo](https://github.com/SebConejo)
+- [@Onsraa](https://github.com/Onsraa)
+- [@truongnmt](https://github.com/truongnmt)
+- [@code-vj](https://github.com/code-vj)
+- [@viktor-ferenczi](https://github.com/viktor-ferenczi)
+- [@vprudnikoff](https://github.com/vprudnikoff)
+- [@Vonfry](https://github.com/Vonfry)
+- [@Wittlesus](https://github.com/Wittlesus)
+- [@avimak](https://github.com/avimak)
+- [@buzzbysolcex](https://github.com/buzzbysolcex)
+- [@c1c3ru](https://github.com/c1c3ru)
+- [@ckdwns9121](https://github.com/ckdwns9121)
+- [@developer-victor](https://github.com/developer-victor)
+- [@fbientrigo](https://github.com/fbientrigo)
+- [@junited31](https://github.com/junited31)
+- [@KrisnaSantosa15](https://github.com/KrisnaSantosa15)
+- [@nocodemf](https://github.com/nocodemf)
+- [@sstklen](https://github.com/sstklen)
+- [@taksrules](https://github.com/taksrules)
+- [@thuanlm215](https://github.com/thuanlm215)
+- [@zebbern](https://github.com/zebbern)
+- [@vuth-dogo](https://github.com/vuth-dogo)
+- [@ALEKGG1](https://github.com/ALEKGG1)
+- [@Abdulrahmansoliman](https://github.com/Abdulrahmansoliman)
+- [@alexmvie](https://github.com/alexmvie)
+- [@Andruia](https://github.com/Andruia)
+- [@acbhatt12](https://github.com/acbhatt12)
+- [@BenedictKing](https://github.com/BenedictKing)
+- [@rcigor](https://github.com/rcigor)
+- [@whatiskadudoing](https://github.com/whatiskadudoing)
+- [@k-kolomeitsev](https://github.com/k-kolomeitsev)
+- [@Krishna-Modi12](https://github.com/Krishna-Modi12)
+- [@kromahlusenii-ops](https://github.com/kromahlusenii-ops)
+- [@djmahe4](https://github.com/djmahe4)
+- [@maxdml](https://github.com/maxdml)
+- [@mertbaskurt](https://github.com/mertbaskurt)
+- [@nedcodes-ok](https://github.com/nedcodes-ok)
+- [@LocNguyenSGU](https://github.com/LocNguyenSGU)
+- [@KhaiTrang1995](https://github.com/KhaiTrang1995)
+- [@sharmanilay](https://github.com/sharmanilay)
+- [@yubing744](https://github.com/yubing744)
+- [@PabloASMD](https://github.com/PabloASMD)
+- [@0xrohitgarg](https://github.com/0xrohitgarg)
+- [@Silverov](https://github.com/Silverov)
+- [@shmlkv](https://github.com/shmlkv)
+- [@kriptoburak](https://github.com/kriptoburak)
 
 ---
 
@@ -420,18 +598,10 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
-**Keywords**: Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, Agentic Skills, AI Coding Assistant, AI Agent Skills, MCP, MCT, AI Agents, Autonomous Coding, Security Auditing, React Patterns, LLM Tools, AI IDE, Coding AI, AI Pair Programming, Vibe Coding, Agentic Coding, AI Developer Tools.
+## Star History
 
----
+[![Star History Chart](https://api.star-history.com/svg?repos=sickn33/antigravity-awesome-skills&type=date&legend=top-left)](https://www.star-history.com/#sickn33/antigravity-awesome-skills&type=date&legend=top-left)
 
-## 🏷️ GitHub Topics
+If Antigravity Awesome Skills has been useful, consider ⭐ starring the repo!
 
-For repository maintainers, add these topics to maximize discoverability:
-
-```text
-claude-code, gemini-cli, codex-cli, antigravity, cursor, github-copilot, opencode,
-agentic-skills, ai-coding, llm-tools, ai-agents, autonomous-coding, mcp,
-ai-developer-tools, ai-pair-programming, vibe-coding, skill, skills, SKILL.md, rules.md, CLAUDE.md, GEMINI.md, CURSOR.md
-claude-code, gemini-cli, codex-cli, antigravity, cursor, github-copilot, opencode,
-agentic-skills, ai-coding, llm-tools, ai-agents, autonomous-coding, mcp
-```
+<!-- GitHub Topics (for maintainers): claude-code, gemini-cli, codex-cli, antigravity, cursor, github-copilot, opencode, agentic-skills, ai-coding, llm-tools, ai-agents, autonomous-coding, mcp, ai-developer-tools, ai-pair-programming, vibe-coding, skill, skills, SKILL.md, rules.md, CLAUDE.md, GEMINI.md, CURSOR.md -->
