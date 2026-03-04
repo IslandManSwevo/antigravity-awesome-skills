@@ -166,6 +166,10 @@ Railway uses Railpack by default. Always explicitly set `"builder": "DOCKERFILE"
 | Node.js version wrong despite `engines` field in `package.json` | high | `engines` is only respected when Railpack is the builder. If using Dockerfile, ensure `FROM node:22-alpine` (or correct version). |
 | Prisma `EBADENGINE` error on `npm install` | high | Prisma 7.x requires Node ≥20.19/22.12/24.0. Switch builder to Dockerfile using `node:22-alpine`. |
 | `railway.json` builder ignored | medium | Dashboard setting overrides the file. Always confirm the dashboard also shows `Dockerfile`. |
+| Prisma compilation missing in `dist/` | high | Never use a custom `schema.prisma` output like `../src/generated` for the Prisma client if you are using Docker and `npx tsc`. Use default `@prisma/client`. |
+| Prisma strict TS types failing on `JsonNull` | medium | If reverting to `@prisma/client` from a custom output, `Prisma.JsonNull` strict typings may throw `TS2322`. Cast using `(Prisma.JsonNull as any)`. |
+| Prisma `P1000` Authentication Failed | critical | Ensure your Postgres database is deployed into the EXACT SAME Railway Project as the web service. Internal networking boundaries are project-scoped. |
+| Secrets empty during Docker Build | critical | Doppler secrets are omitted during Docker steps. Rewrite configs mapping secrets (like `prisma.config.ts`) to only validate on `NODE_ENV === "production"`. |
 | Build fails due to missing dependencies | high | Ensure all dependencies are in `package.json` or `requirements.txt`. |
 | Deployment stuck in "Building" | medium | Check `railway logs` for real-time build status. |
 | Port mismatch | high | Ensure your app listens on the port provided by the `PORT` env var. |
