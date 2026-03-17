@@ -38,6 +38,10 @@ Your core principles:
 - environment-variable-management
 - log-streaming
 
+## MCP Server Integration
+
+Whenever possible, prefer using Model Context Protocol (MCP) servers for automating configurations and interacting with Railway, Prisma, or Doppler instead of relying purely on CLI commands or manual edits. MCP servers provide native context and specialized tools for orchestrating these infrastructure services directly.
+
 ## Requirements
 
 - Railway CLI installed.
@@ -106,15 +110,20 @@ ReefCore uses Doppler as the **sole source of truth** for all environment variab
 3. Trigger a deploy — all vars will now be injected from Doppler
 
 ### ⚠️ Dockerfile Builds vs Doppler Secrets
+
 **Doppler secrets are ONLY injected into your project's `Runtime` environment.** They are not available during Docker builds (`npm run build`, `npx prisma generate`, etc.).
+
 - If your build fails because of a missing secret (like `DATABASE_URL` in `prisma.config.ts`), you must rewrite your config or build script to bypass strict validation until the app is actually starting up (e.g. checking `process.env.NODE_ENV === 'production'`).
 
 ### ⚠️ Cross-Project Database Networking limitations (P1000 errors)
+
 Railway's internal networks (e.g., `*.railway.internal`) are strictly restricted horizontally to the current **Project**. 
+
 - If you have an API in `Project A` and a Postgres DB in `Project B`, putting `Project B`'s Postgres URL into Doppler will result in a **Prisma P1000 Authentication Failed** crash at runtime because the TCP traffic is blocked.
 - Databases **must** be deployed into the exact same Railway project folder as the services utilizing them for internal networking to apply.
 
 **If a service crashes with `Error: Connection url is empty` or `DATABASE_URL is empty`:**
+
 → The Doppler ↔ Railway integration is not connected or the variable is missing from Doppler.
 → See the `doppler-secrets-management` skill for full diagnosis steps.
 
@@ -144,29 +153,35 @@ railway up --service api-service
 ## Anti-Patterns
 
 ### ❌ Using `railway deploy` for Code
+
 `railway deploy` is for templates/databases. Use `railway up` for custom application code.
 
 ### ❌ Hardcoding Secrets
+
 Avoid committing secrets; use Doppler (which syncs to Railway) instead.
 
 ### ❌ Setting env vars directly in Railway Variables tab
+
 Use Doppler exclusively. Manual Railway vars create split-brain and will be overridden.
 
 ### ❌ Deploying Untested Code to Production
+
 Always use preview environments or staging first.
 
 ### ❌ Assuming Dockerfile is used by default
+
 Railway uses Railpack by default. Always explicitly set `"builder": "DOCKERFILE"` in both `railway.json` AND the Railway dashboard.
 
 ## ⚠️ Sharp Edges
 
 | Issue | Severity | Solution |
-|-------|----------|----------|
+| ----- | -------- | -------- |
 | Builder set to Railpack despite having a Dockerfile | critical | Set `builder: DOCKERFILE` in `railway.json` AND confirm in Railway dashboard Settings → Build. Both must match. |
 | Node.js version wrong despite `engines` field in `package.json` | high | `engines` is only respected when Railpack is the builder. If using Dockerfile, ensure `FROM node:22-alpine` (or correct version). |
 | Prisma `EBADENGINE` error on `npm install` | high | Prisma 7.x requires Node ≥20.19/22.12/24.0. Switch builder to Dockerfile using `node:22-alpine`. |
 | `railway.json` builder ignored | medium | Dashboard setting overrides the file. Always confirm the dashboard also shows `Dockerfile`. |
 | Prisma compilation missing in `dist/` | high | Never use a custom `schema.prisma` output like `../src/generated` for the Prisma client if you are using Docker and `npx tsc`. Use default `@prisma/client`. |
+| Prisma 7 Driver Adapters | critical | In Prisma 7, `new PrismaClient()` with no arguments throws an initialization error. You **MUST** install `@prisma/adapter-pg` and `pg`, initialize a `pg.Pool`, create a driver adapter, and pass `{ adapter }` to the `PrismaClient` constructor. This is a hard requirement for all traditional DBs. |
 | Prisma strict TS types failing on `JsonNull` | medium | If reverting to `@prisma/client` from a custom output, `Prisma.JsonNull` strict typings may throw `TS2322`. Cast using `(Prisma.JsonNull as any)`. |
 | Prisma `P1000` Authentication Failed | critical | Ensure your Postgres database is deployed into the EXACT SAME Railway Project as the web service. Internal networking boundaries are project-scoped. |
 | Secrets empty during Docker Build | critical | Doppler secrets are omitted during Docker steps. Rewrite configs mapping secrets (like `prisma.config.ts`) to only validate on `NODE_ENV === "production"`. |
